@@ -1,0 +1,130 @@
+# KiCad Project Files
+# Keep the core design files (.kicad_pcb, .kicad_sch, .kicad_pro)
+# Ignore generated/build artifacts
+
+# Backup and recovery files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pcb~
+*.kicad_sch~
+*-bak
+*~
+.history/
+*.history
+
+# Generated output files
+*.pdf
+*.ps
+*.svg
+*.zip
+*.tar.gz
+
+# Generated manufacturing/Gerber files
+**/Gerbers/
+**/gerbers/
+*.GBL
+*.GBO
+*.GBP
+*.GBS
+*.GKO
+*.GML
+*.GTO
+*.GTP
+*.GTS
+*.TXT
+*.XLN
+*.DRF
+
+# Generated pick and place files
+*.csv
+!.gitkeep  # Allow tracking empty directories if needed
+
+# Netlist and component association files
+*.net
+*.cmp
+*.kicad_pcb.kicad_pcb
+**/sch_lib/
+
+# CvPcb files
+*.erc
+
+# Eeschema (schematic) backup files
+eeschema-*.cache
+
+# Other KiCad generated files
+*.kicad_pl
+**/3D_Models/
+fp-info-cache
+
+# Temporary work files
+**/work/
+**/temp/
+*.tmp
+
+---
+
+# Obsidian Local Settings
+# Keep your vault but ignore local app config
+
+.obsidian/
+.obsidian/workspace.json
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/core-plugins.json
+.obsidian/community-plugins.json
+
+---
+
+# General Development Files
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.sublime-project
+.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.Thumbs.db
+.directory
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Node (if using npm tools)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Build artifacts
+/build/
+/dist/
+*.egg-info/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+.~*
+
+---
+
+# Documentation
+# Keep Obsidian docs but ignore generated outputs
+/docs/build/
+*.docx
+*.xlsx
