@@ -4,15 +4,24 @@ A description should be given of every interface of your system. You should disc
 
 # 1. BMS Master
 ## 1.1. CAN
+The BMS Master will have two CAN line pairs.
+1. **High Priority CAN:** This will be for communication with the inverter.
+2. **Low Priority CAN:** This will be for sending data to be used by telemetry.
 ## 1.2. Digital Outputs
+The BMS Master will have a digital output pin that pulls high for normal and to ground for fault.
 ## 1.3. isoSPI
+The BMS master will communicate with the BMS Slaves through a series isoSPI connection. The LTC6811-1 BMS Slave ICs are already configured for this.
 ## 1.4. Energy Meter Passthrough
+The BMS Master board will pass a connection from the BMS Slaves to the TB Carrier Board. This will have no circuitry nearby in order to prove that the energy meter signal is clean.
 ## 1.5. Happy Lights
+The BMS Master will have labelled indicator lights that represent each BMS state, the value of the digital output(s), and other indicator lights as deemed necessary.
 ## 1.6. Power (GLV)
+The BMS will receive and tolerate 12V-15V power input. The BMS is expected to draw less than 500mA max. 
 ## 1.7. Connection to TB Carrier Board
+The BMS Master may connect to a larger carrier board in the Tractive Battery, using breadboard headers. 
 
 
-# 2. BMS Slave
+# 2. BMS Slave 
 ## 2.1. isoSPI
 ## 2.2. Power (Buck Converter)
 ## 2.3. Flex PCB Connector
