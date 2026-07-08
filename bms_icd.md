@@ -33,29 +33,46 @@ Message data is formatted and scaled as follows:
 ## 1.2. Digital Outputs
 The BMS Master will have a digital output pin that pulls high for normal and to ground for fault. The digital output will be sent out of the TB through the TB Carrier Board or directly through the TB Bulkhead Connector
 ## 1.3. isoSPI
-The BMS master will communicate with the BMS Slaves through a series isoSPI connection. The LTC6811-1 BMS Slave ICs are already configured for this. A digital isolator will be selected to protect the BMS Master from the HV Section of the TB Carrier Board. The isoSPI connector will be a MOLEX micro fit jr. 
+The BMS master will communicate with the BMS Slaves through a series isoSPI connection. The LTC6811-1 BMS Slave ICs are already configured for this. An LTC6820 isoSPI transciever will be used to protect the BMS Master from the HV Section of the TB Carrier Board. The isoSPI connector will be a MOLEX micro fit jr. 
 ## 1.4. Energy Meter Passthrough
 The BMS Master board will pass a connection from the BMS Slaves to the TB Carrier Board. This will have no circuitry nearby in order to prove that the energy meter signal is clean. HV spacing will be used (if required). The energy meter wires will connect through the same MOLEX micro fit jr.
+*Wait for rules to come out to make a decision, as Energy Meter rules are changing.*
+
 ## 1.5. Happy Lights
 The BMS Master will have labelled indicator lights that represent each BMS state, the value of the digital output(s), and other indicator lights as deemed necessary.
 ## 1.6. Power (GLV)
 The BMS will receive and tolerate fused 12V-15V power input. The BMS is expected to draw less than 500mA max. 
 ## 1.7. Connection to TB Carrier Board
 The BMS Master may connect to a larger carrier board in the Tractive Battery, using breadboard headers. 
-
+## 1.8. USB Data Lines
+## 1.9. Charging
+**To-Do:**
+- communication with charger over CAN. 
+- pull digital signal during fault for shutdown circuit.
+- test Elconn charger with Ben.
 
 # 2. BMS Slave
 ## 2.1. isoSPI
+LTC6811-1 works with isoSPI natively.
 ## 2.2. Power (Buck Converter)
+Each module will power a 5V Buck for the Slave IC.
 ## 2.3. Flex PCB Connector
-Also something to indicate whether the flex PCB is plugged in properly.
+**To-Do:**
+- choose connector
+- something to indicate whether the flex PCB is plugged in properly.
 ## 2.4. Happy Lights
+determine happy lights
 ## 2.5. Energy Meter Passthrough
+*wait for rules in fall*
+## 2.6. Fusing
+Looking into PTC fuses.
 
 
 # 3. Flex PCB
 ## 3.1. Connection with Slave Boards
 ## 3.2. Connection to Voltage Taps
 ## 3.3. Thermistors
-## 3.4. Fusing
 ## 3.5. Mounting & Mechanical Interface
+
+# 4. BMS Slave Testing
+
