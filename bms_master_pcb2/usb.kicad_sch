@@ -2350,7 +2350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 137.16 60.325 0)
 			(hide yes)
 			(show_name no)
@@ -2629,7 +2629,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.97 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -2711,7 +2711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 140.97 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -2791,7 +2791,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 154.94 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2990,7 +2990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 123.19 58.42 0)
 			(hide yes)
 			(show_name no)

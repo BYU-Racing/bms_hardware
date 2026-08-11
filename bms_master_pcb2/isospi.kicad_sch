@@ -2431,6 +2431,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "2 pull-ups?"
+		(exclude_from_sim no)
+		(at 37.084 76.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "741080e1-0157-4cff-9c37-e7874021e0c7")
+	)
 	(junction
 		(at 104.14 38.1)
 		(diameter 0)
@@ -3186,7 +3196,7 @@
 	)
 	(hierarchical_label "E-METER_PASSTHROUGH_1"
 		(shape input)
-		(at 218.44 87.63 180)
+		(at 218.44 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3197,7 +3207,7 @@
 	)
 	(hierarchical_label "E-METER_PASSTHROUGH_1"
 		(shape input)
-		(at 218.44 74.93 180)
+		(at 218.44 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3208,7 +3218,7 @@
 	)
 	(hierarchical_label "E-METER_PASSTHROUGH_2"
 		(shape input)
-		(at 218.44 77.47 180)
+		(at 218.44 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3230,7 +3240,7 @@
 	)
 	(hierarchical_label "E-METER_PASSTHROUGH_2"
 		(shape input)
-		(at 218.44 90.17 180)
+		(at 218.44 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3282,7 +3292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 90.17 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -3441,7 +3451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 146.05 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3523,7 +3533,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 88.9 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -3680,7 +3690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.01 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -3993,7 +4003,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 109.22 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4075,7 +4085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MS_05-08-1669_ADI"
+		(property "Footprint" "bms_master_pcb2:MS_05-08-1669_ADI"
 			(at 72.39 76.454 0)
 			(hide yes)
 			(show_name no)
@@ -4397,7 +4407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 109.22 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4602,7 +4612,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 223.52 72.39 0)
+		(at 223.52 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4613,7 +4623,7 @@
 		(fields_autoplaced yes)
 		(uuid "674347cf-2163-421d-a625-52e09b63170b")
 		(property "Reference" "J201"
-			(at 226.06 72.3899 0)
+			(at 226.06 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4624,7 +4634,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 226.06 74.9299 0)
+			(at 226.06 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4634,8 +4644,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 223.52 72.39 0)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal"
+			(at 223.52 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4646,7 +4656,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 72.39 0)
+			(at 223.52 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4657,7 +4667,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 223.52 72.39 0)
+			(at 223.52 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4722,7 +4732,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 88.9 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4779,7 +4789,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6c37140a-7b30-4d9c-989f-3faee6dc99fa")
 		(property "Reference" "R202"
@@ -4804,7 +4814,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 35.56 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4884,7 +4894,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 146.05 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4966,7 +4976,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 35.56 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5046,7 +5056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 109.22 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5562,7 +5572,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 223.52 85.09 0)
+		(at 223.52 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5573,7 +5583,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2d8cc83-2741-4622-a376-e3ce1cf8b8ef")
 		(property "Reference" "J202"
-			(at 226.06 85.0899 0)
+			(at 226.06 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5584,7 +5594,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 226.06 87.6299 0)
+			(at 226.06 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5594,8 +5604,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 223.52 85.09 0)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0400_1x04_P3.00mm_Horizontal"
+			(at 223.52 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5606,7 +5616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 85.09 0)
+			(at 223.52 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5617,7 +5627,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 223.52 85.09 0)
+			(at 223.52 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5994,7 +6004,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 90.17 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6388,7 +6398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MS_05-08-1669_ADI"
+		(property "Footprint" "bms_master_pcb2:MS_05-08-1669_ADI"
 			(at 72.39 23.114 0)
 			(hide yes)
 			(show_name no)
@@ -6590,7 +6600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 109.22 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6670,7 +6680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 80.01 81.28 0)
 			(hide yes)
 			(show_name no)

@@ -948,6 +948,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "output characteristic impediance 120 ohms"
+		(exclude_from_sim no)
+		(at 211.328 82.296 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f1d7d2d-646b-4595-a562-f7bd1a6702c4")
+	)
+	(text "could only find 1206 size 60ohm Resistors"
+		(exclude_from_sim no)
+		(at 197.104 43.942 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a544dab6-85c3-4871-b513-5da58a4f60bd")
+	)
 	(junction
 		(at 195.58 55.88)
 		(diameter 0)
@@ -1614,7 +1634,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 101.6 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2084,7 +2104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-8_HandSoldering"
 			(at 156.21 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -2187,7 +2207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 195.58 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2269,7 +2289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 101.6 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2351,7 +2371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 113.03 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -2665,7 +2685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 195.58 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2747,7 +2767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 113.03 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -2829,7 +2849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 195.58 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2988,7 +3008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-8_HandSoldering"
 			(at 156.21 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3168,7 +3188,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 200.66 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3403,7 +3423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 200.66 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3564,7 +3584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 195.58 58.42 0)
 			(hide yes)
 			(show_name no)
