@@ -57,22 +57,24 @@ LTC6811-1 works with isoSPI natively.
 ## 2.2. Power (Buck Converter)
 Each module will power a 5V Buck for the Slave IC.
 ## 2.3. Flex PCB Connector
-**To-Do:**
-- choose connector
-- something to indicate whether the flex PCB is plugged in properly.
+Molex 2254330120 Female Connector lives on Slave PCB. 
 ## 2.4. Happy Lights
-determine happy lights
+- Buck Powering 5V VREG rail
 ## 2.5. Energy Meter Passthrough
 *wait for rules in fall*
 ## 2.6. Fusing
-Looking into PTC fuses.
+Littelfuse 01550900M Cartridge will hold 250mA and 500mA for the voltage taps, V+ and GND_REF for each respective lead.
 
 
 # 3. Flex PCB
 ## 3.1. Connection with Slave Boards
+FPC inserts into the Molex 2190190120 Female Connector which then mates with the PCB mount Molex Connector. See BMS Slave 2.3
 ## 3.2. Connection to Voltage Taps
+Currently testing soldered connection points.
 ## 3.3. Thermistors
+Very standard Vishay NTCS0603E3103FLT. Solder pads (0603) live on FPC.
 ## 3.5. Mounting & Mechanical Interface
+TBD. some sort of thermal epoxy or Kapton tape might be necessary to prevent any shorts on FPC.
 
 # 4. BMS Slave Testing
 
