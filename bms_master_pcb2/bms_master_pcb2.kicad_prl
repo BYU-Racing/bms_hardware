@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 0.5
     },
     "prototype_zone_fills": false,
     "selection_filter": {
@@ -95,18 +95,18 @@
       11
     ],
     "col_widths": [
-      222,
-      207,
-      137,
-      92,
-      137,
-      137,
-      137,
-      98,
-      137,
-      137,
-      137,
-      137
+      111,
+      104,
+      149,
+      120,
+      129,
+      152,
+      132,
+      126,
+      69,
+      69,
+      82,
+      82
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
