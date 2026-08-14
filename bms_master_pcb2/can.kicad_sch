@@ -948,6 +948,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "L"
+		(exclude_from_sim no)
+		(at 171.958 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19c88fa9-64de-45c1-bd48-104011d49611")
+	)
+	(text "H"
+		(exclude_from_sim no)
+		(at 171.704 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "44f70138-7a2d-49fb-aa72-6e8d5701cb47")
+	)
 	(text "output characteristic impediance 120 ohms"
 		(exclude_from_sim no)
 		(at 211.328 82.296 0)
@@ -958,6 +978,16 @@
 		)
 		(uuid "8f1d7d2d-646b-4595-a562-f7bd1a6702c4")
 	)
+	(text "L"
+		(exclude_from_sim no)
+		(at 171.958 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9fdd865c-5d33-49a0-9c81-278edc0f9f49")
+	)
 	(text "could only find 1206 size 60ohm Resistors"
 		(exclude_from_sim no)
 		(at 197.104 43.942 0)
@@ -967,6 +997,16 @@
 			)
 		)
 		(uuid "a544dab6-85c3-4871-b513-5da58a4f60bd")
+	)
+	(text "H"
+		(exclude_from_sim no)
+		(at 171.704 61.214 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b1472419-4b76-4936-88f3-8fcadd8e2d20")
 	)
 	(junction
 		(at 195.58 55.88)
@@ -1476,16 +1516,6 @@
 		)
 		(uuid "fdc674f1-8090-4838-81b8-b5f1ad79b2da")
 	)
-	(label "CAN2.H"
-		(at 171.45 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "28c3c113-3ad1-4cd9-bbe7-309b9e1b4b3b")
-	)
 	(label "CAN1.RX"
 		(at 129.54 64.77 0)
 		(effects
@@ -1496,15 +1526,35 @@
 		)
 		(uuid "2a4b25e3-3532-4a0e-b9bf-86a8f601559e")
 	)
-	(label "CAN2.L"
-		(at 171.45 101.6 0)
+	(label "CAN.2-"
+		(at 173.99 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2ddc6376-ac51-4582-86af-182bfd48e1ca")
+		(uuid "51b0822e-a118-4f9e-863f-2c8561f011db")
+	)
+	(label "CAN.1-"
+		(at 173.99 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "674913bf-ea3c-4de1-84d6-1bf027608ab2")
+	)
+	(label "CAN.1+"
+		(at 173.99 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f0168ea-2d5c-4267-8542-2c9388ae4c37")
 	)
 	(label "CAN2.RX"
 		(at 129.54 101.6 0)
@@ -1516,16 +1566,6 @@
 		)
 		(uuid "7468eadf-d66f-4b21-8324-1ef26d12868c")
 	)
-	(label "CAN1.H"
-		(at 171.45 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "777fc8bb-b415-45d9-9bac-8f0e2399f7ee")
-	)
 	(label "CAN2.TX"
 		(at 129.54 99.06 0)
 		(effects
@@ -1536,16 +1576,6 @@
 		)
 		(uuid "79ab615c-5514-4f67-8217-2fe5af7727f5")
 	)
-	(label "CAN1.L"
-		(at 171.45 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2150637-7c76-4f48-a479-272531ee8963")
-	)
 	(label "CAN1.TX"
 		(at 129.54 62.23 0)
 		(effects
@@ -1555,6 +1585,16 @@
 			(justify left bottom)
 		)
 		(uuid "ed2fb513-7e46-4044-bd88-09c988e39b2f")
+	)
+	(label "CAN.2+"
+		(at 173.99 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f870914b-fd90-4392-974a-c51b5c2a7070")
 	)
 	(hierarchical_label "CAN2{FDCAN}"
 		(shape input)
@@ -1567,7 +1607,7 @@
 		)
 		(uuid "491deb14-e30c-460b-8fc9-d437e455fff3")
 	)
-	(hierarchical_label "CAN2{H L}"
+	(hierarchical_label "CAN{2+ 2-}"
 		(shape input)
 		(at 231.14 96.52 0)
 		(effects
@@ -1589,7 +1629,7 @@
 		)
 		(uuid "874b6c9b-649e-425e-b55e-350ee82a10be")
 	)
-	(hierarchical_label "CAN1{H L}"
+	(hierarchical_label "CAN{1+ 1-}"
 		(shape input)
 		(at 231.14 59.69 0)
 		(effects
