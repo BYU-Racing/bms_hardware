@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "bms_flex_pcb_library") (type "KiCad") (uri "${KIPRJMOD}/bms_flex_pcb_library.pretty") (options "") (descr ""))
+)

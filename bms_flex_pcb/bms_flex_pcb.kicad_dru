@@ -1,0 +1,114 @@
+(version 1)
+
+# ============================================================
+# JLCPCB 2-Layer FPC Design Rules - 25um dielectric, 0.5oz Cu
+# Source: JLCPCB Flex PCB Capabilities page
+# Trace/space spec: 3.5/3.5 mil -> 0.0889mm, rounded up to 0.089mm
+# ============================================================
+
+# --- Trace width & clearance (0.5oz copper: 3.5/3.5 mil) ---
+(rule "JLC min track width (0.5oz)"
+    (layer outer)
+    (constraint track_width (min 0.1mm))
+)
+
+(rule "JLC min copper clearance (0.5oz)"
+    (layer outer)
+    (constraint clearance (min 0.6mm))
+)
+
+# --- Via: min hole 0.3mm, min pad diameter 0.55mm -> annular width 0.125mm ---
+(rule "JLC min via hole size"
+    (constraint hole_size (min 0.3mm))
+    (condition "A.Type == 'Via'")
+)
+
+(rule "JLC min via annular width"
+    (constraint annular_width (min 0.125mm))
+    (condition "A.Type == 'Via'")
+)
+
+# --- PTH (through-hole pads): annular ring >= 0.25mm, hole 0.1-6.5mm ---
+(rule "JLC min PTH annular ring"
+    (constraint annular_width (min 0.25mm))
+    (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'")
+)
+
+(rule "JLC PTH hole size range"
+    (constraint hole_size (min 0.1mm) (max 6.5mm))
+    (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'")
+)
+
+# --- Minimum plated slot width (oblong PTH pads) ---
+(rule "JLC min plated slot width"
+    (constraint hole_size (min 0.5mm))
+    (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole' && A.Pad_Shape == 'Oval'")
+)
+
+# --- Pad-to-trace clearance: via ring vs exposed pad have different minimums ---
+(rule "JLC via ring to trace clearance"
+    (layer outer)
+    (constraint clearance (min 0.1mm))
+    (condition "A.Type == 'Via' && B.Type == 'Track'")
+)
+
+(rule "JLC exposed pad to trace clearance"
+    (layer outer)
+    (constraint clearance (min 0.15mm))
+    (condition "A.Type == 'Pad' && B.Type == 'Track'")
+)
+
+# --- NPTH to copper clearance ---
+(rule "JLC NPTH to copper clearance"
+    (constraint hole_clearance (min 0.2mm))
+    (condition "A.Pad_Type == 'NPTH'")
+)
+
+# --- Coverlay opening to trace clearance (proxy via soldermask layer clearance) ---
+(rule "JLC coverlay opening to trace clearance"
+    (layer "F.Mask")
+    (constraint clearance (min 0.15mm))
+    (condition "A.Type == 'Pad' && B.Type == 'Track'")
+)
+
+# --- Minimum solder bridge / isthmus width between adjacent mask openings ---
+(rule "JLC min solder bridge width"
+    (layer "F.Mask")
+    (constraint clearance (min 0.5mm))
+    (condition "A.Type == 'Pad' && B.Type == 'Pad'")
+)
+
+# --- Silkscreen to pad clearance ---
+(rule "JLC silk to pad clearance"
+    (layer "F.SilkS")
+    (constraint silk_clearance (min 0.15mm))
+    (condition "A.Type == 'Text' || A.Type == 'Graphic'")
+)
+
+# --- Laser outline: copper to board edge / copper to slots ---
+(rule "JLC copper to board edge clearance"
+    (constraint edge_clearance (min 0.3mm))
+    (condition "A.Type == 'Pad' || A.Type == 'Track' || A.Type == 'Zone' || A.Type == 'Via'")
+)
+
+# --- Castellated holes (uncomment and adjust net/footprint filter if used) ---
+# (rule "JLC castellated hole diameter"
+#     (constraint hole_size (min 0.3mm))
+#     (condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole' && A.Fabrication_Attribute == 'Castellated'")
+# )
+# (rule "JLC castellated hole to board edge"
+#     (constraint edge_clearance (min 0.5mm))
+#     (condition "A.Fabrication_Attribute == 'Castellated'")
+# )
+# (rule "JLC castellated hole to hole"
+#     (constraint hole_to_hole (min 0.4mm))
+#     (condition "A.Fabrication_Attribute == 'Castellated' && B.Fabrication_Attribute == 'Castellated'")
+# )
+
+# --- Gold finger pad to board edge clearance (uncomment + filter if you have gold fingers) ---
+# Placed AFTER the general edge clearance rule so it overrides it for matching pads -
+# KiCad applies the last matching rule when multiple rules apply to the same object.
+# (rule "JLC gold finger to board edge"
+#     (constraint edge_clearance (min 0.2mm))
+#     (condition "A.NetClass == 'GoldFinger'")
+# )
