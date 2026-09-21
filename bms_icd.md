@@ -55,15 +55,17 @@ The BMS Master may connect to a larger carrier board in the Tractive Battery, us
 ## 2.1. isoSPI
 LTC6811-1 works with isoSPI natively.
 ## 2.2. Power (Buck Converter)
-Each module will power a 5V Buck for the Slave IC.
+Each module will power a 5V Buck for the Slave IC and other onboard ICs.
 ## 2.3. Flex PCB Connector
 Molex 2254330120 Female Connector lives on Slave PCB. 
 ## 2.4. Happy Lights
 - Buck Powering 5V VREG rail
 ## 2.5. Energy Meter Passthrough
-*wait for rules in fall*
+Teams are required to have at least one Energy Meter temperature sensor per Module in the Tractive 
+Battery Pack. The sensors used must be an Analog Devices DS18B20 (any package) wired for parasite power Vdd 
+connected to Gnd.  Multiple sensors should be connected in parallel. The sensors must also have appropriate levels of electrical isolation between the sensor and cell.
 ## 2.6. Fusing
-Littelfuse 01550900M Cartridge will hold 250mA and 500mA for the voltage taps, V+ and GND_REF for each respective lead.
+Littelfuse 01550900M Cartridge will hold 250mA fuses for the voltage taps and 500mA fuses for V+ and GND_REF.
 
 
 # 3. Flex PCB
@@ -72,7 +74,7 @@ FPC inserts into the Molex 2190190120 Female Connector which then mates with the
 ## 3.2. Connection to Voltage Taps
 Currently testing soldered connection points.
 ## 3.3. Thermistors
-Very standard Vishay NTCS0603E3103FLT. Solder pads (0603) live on FPC.
+Vishay NTCS0603E3103FLT thermistors with solder pads (0603) living on FPC.
 ## 3.5. Mounting & Mechanical Interface
 TBD. some sort of thermal epoxy or Kapton tape might be necessary to prevent any shorts on FPC.
 
