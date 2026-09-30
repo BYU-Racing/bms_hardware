@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bms_master_pcb.kicad_pro",
+    "filename": "bms_cell_emulator_board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -533,7 +533,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 1,
+      "method": 0,
       "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
@@ -607,25 +607,7 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {
-      "FDCAN": [
-        "RX",
-        "TX"
-      ],
-      "QSPI": [
-        "NCS",
-        "IO0",
-        "IO1",
-        "IO2",
-        "IO3",
-        "CLK"
-      ],
-      "SPI": [
-        "MISO",
-        "MOSI",
-        "SCK"
-      ]
-    },
+    "bus_aliases": {},
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -661,34 +643,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "bms_master_pcb.kicad_sch",
-        "name": "bms_master_pcb",
-        "uuid": "58d62284-ebd1-49ab-8e0b-414456219053"
+        "filename": "bms_cell_emulator_board.kicad_sch",
+        "name": "Root",
+        "uuid": "21db7518-9b4b-4fb4-a69f-614773454af4"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1-4,C1-24,J1-2,RV1-12",
     "variants": []
   },
   "sheets": [
     [
-      "58d62284-ebd1-49ab-8e0b-414456219053",
-      "bms_master_pcb"
-    ],
-    [
-      "31d0c14c-8057-40c4-838d-8433c3ccac45",
-      "isoSPI"
-    ],
-    [
-      "1a0102db-4716-4d19-be46-6e76a6cd5e12",
-      "CAN"
-    ],
-    [
-      "3d1a8752-2c66-43d8-9f80-77fba04166ba",
-      "USB"
-    ],
-    [
-      "42483341-58a4-4a09-9f49-6257824271f5",
-      "Power"
+      "21db7518-9b4b-4fb4-a69f-614773454af4",
+      "Root"
     ]
   ],
   "text_variables": {},

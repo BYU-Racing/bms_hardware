@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "bms_master_pcb.kicad_prl",
+    "filename": "bms_cell_emulator_board.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -123,7 +123,7 @@
   "schematic": {
     "hierarchy_collapsed": [],
     "selection_filter": {
-      "graphics": false,
+      "graphics": true,
       "images": true,
       "labels": true,
       "lockedItems": false,
@@ -132,7 +132,7 @@
       "ruleAreas": true,
       "symbols": true,
       "text": true,
-      "wires": false
+      "wires": true
     }
   }
 }

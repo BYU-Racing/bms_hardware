@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "bms_master_pcb.kicad_prl",
+    "filename": "bms_slave_pcb_v0.1.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -92,16 +92,16 @@
       9
     ],
     "col_widths": [
-      186,
-      171,
-      112,
-      79,
-      112,
-      112,
-      112,
-      83,
-      112,
-      112
+      162,
+      147,
+      91,
+      67,
+      91,
+      91,
+      91,
+      71,
+      91,
+      91
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -123,7 +123,7 @@
   "schematic": {
     "hierarchy_collapsed": [],
     "selection_filter": {
-      "graphics": false,
+      "graphics": true,
       "images": true,
       "labels": true,
       "lockedItems": false,
@@ -132,7 +132,7 @@
       "ruleAreas": true,
       "symbols": true,
       "text": true,
-      "wires": false
+      "wires": true
     }
   }
 }
