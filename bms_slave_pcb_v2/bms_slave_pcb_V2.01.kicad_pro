@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "bms_slave_pcb.kicad_pro",
+    "filename": "bms_slave_pcb_V2.01.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -794,18 +794,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "bms_slave_pcb.kicad_sch",
-        "name": "bms_slave_pcb",
+        "filename": "bms_slave_pcb_V2.01.kicad_sch",
+        "name": "bms_slave_pcb_V2.01",
         "uuid": "41ccf350-ee7b-4386-b0cf-c25b52556b27"
       }
     ],
-    "used_designators": "J3",
+    "used_designators": "J3,#PWR7",
     "variants": []
   },
   "sheets": [
     [
       "41ccf350-ee7b-4386-b0cf-c25b52556b27",
-      "bms_slave_pcb"
+      "bms_slave_pcb_V2.01"
     ],
     [
       "1af5efc7-4330-4e2b-844f-c65e828aa79a",

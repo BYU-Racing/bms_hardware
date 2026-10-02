@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 9,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "bms_slave_pcb_v0.1.kicad_prl",
+    "filename": "bms_slave_pcb_V2.01.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -94,12 +94,12 @@
     "col_widths": [
       162,
       147,
+      98,
+      79,
       91,
-      67,
+      99,
       91,
-      91,
-      91,
-      71,
+      83,
       91,
       91
     ],

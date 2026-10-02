@@ -2830,7 +2830,7 @@
 			(uuid "c6c18469-7101-4989-9546-15c883456b78")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C10")
 					(unit 1)
@@ -2912,7 +2912,7 @@
 			(uuid "70e770e1-8268-41de-8ef1-55de7bb16ff7")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R9")
 					(unit 1)
@@ -2996,7 +2996,7 @@
 			(uuid "823a29e6-0d16-4c06-adf8-c284b4efd91a")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "Q9")
 					(unit 1)
@@ -3078,7 +3078,7 @@
 			(uuid "05a6374e-b55f-4ce5-ad77-6623bcb53d3c")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R6")
 					(unit 1)
@@ -3158,7 +3158,7 @@
 			(uuid "93d5d3e2-f884-4ac1-8f80-b5e41b183803")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "F3")
 					(unit 1)
@@ -3238,7 +3238,7 @@
 			(uuid "1bccba08-2c9e-404c-a0b3-215e8e6627b7")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "F6")
 					(unit 1)
@@ -3317,7 +3317,7 @@
 			(uuid "6da0ee44-8f6c-4c49-9c69-95bcdf9c1bb9")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R34")
 					(unit 1)
@@ -3401,7 +3401,7 @@
 			(uuid "aea4e284-e7b9-4f1f-9dc1-6d4203135bb4")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "Q2")
 					(unit 1)
@@ -3485,7 +3485,7 @@
 			(uuid "5e54bfd7-3992-40b9-9d9a-f2f72875bf43")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "Q3")
 					(unit 1)
@@ -3567,7 +3567,7 @@
 			(uuid "2caffdf3-a200-4928-bd25-64394caf7d47")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C3")
 					(unit 1)
@@ -3649,7 +3649,7 @@
 			(uuid "b6018d40-14d7-4e5b-bdf0-8a4c94a505cd")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R4")
 					(unit 1)
@@ -3728,7 +3728,7 @@
 			(uuid "65e92a56-55e7-4640-8b02-23629cc6a3d1")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R26")
 					(unit 1)
@@ -3810,7 +3810,7 @@
 			(uuid "a0f473eb-3c70-405b-9c29-93927b7c3a7d")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C2")
 					(unit 1)
@@ -3889,7 +3889,7 @@
 			(uuid "f8d0f764-6a91-4de4-8f17-da3117aeceae")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R20")
 					(unit 1)
@@ -3969,7 +3969,7 @@
 			(uuid "96c7894c-594b-4ffc-bf93-2bce6c1b0231")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "F8")
 					(unit 1)
@@ -4048,7 +4048,7 @@
 			(uuid "00800b00-49f1-4311-a926-bf81776f854f")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R29")
 					(unit 1)
@@ -4130,7 +4130,7 @@
 			(uuid "c90e063b-3814-4e71-a01a-65cc522cbb2c")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R11")
 					(unit 1)
@@ -4209,7 +4209,7 @@
 			(uuid "4c5743f6-7a72-4e7d-b3c8-3f9090ed89df")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R36")
 					(unit 1)
@@ -4291,7 +4291,7 @@
 			(uuid "c9b3245f-03ea-45e4-96c3-5caa8658c088")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R3")
 					(unit 1)
@@ -4371,7 +4371,7 @@
 			(uuid "9af54480-2c3c-41e1-9b5b-ef8f47b65dfb")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "F10")
 					(unit 1)
@@ -4453,7 +4453,7 @@
 			(uuid "c4a12eff-7fd6-4c33-adef-f2a96c2bf672")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C7")
 					(unit 1)
@@ -4531,7 +4531,7 @@
 			(uuid "bd26dfff-c134-4859-9bd5-efa7d91ef672")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "#PWR04")
 					(unit 1)
@@ -4613,7 +4613,7 @@
 			(uuid "44db12ab-1468-47a4-a3fe-12aba9da06c7")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C11")
 					(unit 1)
@@ -4692,7 +4692,7 @@
 			(uuid "76680725-e02c-411b-870f-ba7d84a8046b")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R32")
 					(unit 1)
@@ -4774,7 +4774,7 @@
 			(uuid "4059e407-5722-45e2-9479-3e4266577296")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C4")
 					(unit 1)
@@ -4858,7 +4858,7 @@
 			(uuid "d375c828-de2d-456f-9eaa-7117da5fda38")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "Q1")
 					(unit 1)
@@ -4937,7 +4937,7 @@
 			(uuid "697e2bc8-6281-4d6e-bdc7-924eb62f9f83")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R23")
 					(unit 1)
@@ -5021,7 +5021,7 @@
 			(uuid "64a59f57-f4ac-46cd-b31f-6de7551aa37e")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "Q8")
 					(unit 1)
@@ -5101,7 +5101,7 @@
 			(uuid "9e5ae367-96df-4df4-bba2-965669424c76")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "F2")
 					(unit 1)
@@ -5181,7 +5181,7 @@
 			(uuid "eba6af04-c536-4acd-a941-5799df046100")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "F1")
 					(unit 1)
@@ -5263,7 +5263,7 @@
 			(uuid "e45f19cf-f22b-4c9f-8858-ad42a37e043a")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C8")
 					(unit 1)
@@ -5345,7 +5345,7 @@
 			(uuid "909a0137-f402-40a3-a701-efed573abfe3")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C6")
 					(unit 1)
@@ -5429,7 +5429,7 @@
 			(uuid "df5025ad-044b-4775-9f1e-0a07acfe0e6a")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "Q4")
 					(unit 1)
@@ -5511,7 +5511,7 @@
 			(uuid "7696f5b3-1da6-4bf0-82f6-3c6612197ee3")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R7")
 					(unit 1)
@@ -5590,7 +5590,7 @@
 			(uuid "1cd75772-e213-4d6a-bf00-d5d2fdf2fece")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R31")
 					(unit 1)
@@ -5672,7 +5672,7 @@
 			(uuid "34e9b45a-367d-4938-aa31-3f83ef28c756")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C5")
 					(unit 1)
@@ -5752,7 +5752,7 @@
 			(uuid "ec62ad1f-7ec8-4276-9a87-09c7ca81a51d")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "F9")
 					(unit 1)
@@ -5834,7 +5834,7 @@
 			(uuid "999de12b-7091-4140-bd3c-89dc9ee0383a")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R8")
 					(unit 1)
@@ -5916,7 +5916,7 @@
 			(uuid "0fb39bfa-aeda-44fe-8c8b-8f44c422e7c3")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R5")
 					(unit 1)
@@ -5998,7 +5998,7 @@
 			(uuid "e448885f-7d36-4899-bee1-3644bdba22b0")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R2")
 					(unit 1)
@@ -6077,7 +6077,7 @@
 			(uuid "5abab5c1-d267-46e5-bd9a-1039842eb7e5")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R22")
 					(unit 1)
@@ -6161,7 +6161,7 @@
 			(uuid "7ddfdb41-7b15-430e-98ed-7d16cf5c38ec")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "Q10")
 					(unit 1)
@@ -6241,7 +6241,7 @@
 			(uuid "1047c55b-c28c-4f8c-a53e-2c7264e128c2")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "F7")
 					(unit 1)
@@ -6320,7 +6320,7 @@
 			(uuid "98aa6a47-1e73-44af-91c4-64f7611f2e61")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R25")
 					(unit 1)
@@ -6399,7 +6399,7 @@
 			(uuid "4efa7784-b192-4007-9b80-301b7c63a7c9")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R28")
 					(unit 1)
@@ -6483,7 +6483,7 @@
 			(uuid "e78c370e-460f-407f-a05d-a4d881626e35")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "Q6")
 					(unit 1)
@@ -6562,7 +6562,7 @@
 			(uuid "ec631a81-f7ea-4dc6-baac-f891f13274c7")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R15")
 					(unit 1)
@@ -6646,7 +6646,7 @@
 			(uuid "430341d2-2837-49e5-aeee-afae008d152d")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "Q7")
 					(unit 1)
@@ -6728,7 +6728,7 @@
 			(uuid "ddad5324-17ad-4f7c-bf90-4690838642f8")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R12")
 					(unit 1)
@@ -6807,7 +6807,7 @@
 			(uuid "9325853e-a9a4-4893-bc4f-4a5b58185a62")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R19")
 					(unit 1)
@@ -6891,7 +6891,7 @@
 			(uuid "a1bb454e-55a7-48cd-94d1-cb7cc7af1827")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "Q12")
 					(unit 1)
@@ -6970,7 +6970,7 @@
 			(uuid "12b2e3ed-3ca2-406f-bf61-3a7d6bf7fec6")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "#PWR03")
 					(unit 1)
@@ -7052,7 +7052,7 @@
 			(uuid "96086442-b03d-49f6-86b1-8580ed054b0d")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C12")
 					(unit 1)
@@ -7131,7 +7131,7 @@
 			(uuid "1ac5d440-3c62-40cf-b0f2-6a6578c4592b")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R14")
 					(unit 1)
@@ -7213,7 +7213,7 @@
 			(uuid "1613b7fc-8bbb-4f2c-b98e-76d732092a56")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R10")
 					(unit 1)
@@ -7295,7 +7295,7 @@
 			(uuid "3d0b0f67-93c8-4874-83f3-5494ffbbad72")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C9")
 					(unit 1)
@@ -7377,7 +7377,7 @@
 			(uuid "ac0a93f8-666c-4220-ad49-a0b599ec765c")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C13")
 					(unit 1)
@@ -7456,7 +7456,7 @@
 			(uuid "87efccfd-6646-43b4-abd7-d5a88626fec1")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R17")
 					(unit 1)
@@ -7536,7 +7536,7 @@
 			(uuid "26be546d-6b90-4b6d-b677-5aa171231291")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "F12")
 					(unit 1)
@@ -7615,7 +7615,7 @@
 			(uuid "2deb5042-8de4-430c-af8b-ac001abfbeb1")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R35")
 					(unit 1)
@@ -7694,7 +7694,7 @@
 			(uuid "41bd4251-f76d-41a6-9548-a40eba5e4bc1")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R21")
 					(unit 1)
@@ -7773,7 +7773,7 @@
 			(uuid "f8cbcbae-6879-4ff1-a354-75892b6fb3cc")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R33")
 					(unit 1)
@@ -7853,7 +7853,7 @@
 			(uuid "119d29eb-abf4-4ee5-be7c-4cef12457f96")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "F5")
 					(unit 1)
@@ -7931,7 +7931,7 @@
 			(uuid "e94e0539-545d-4c88-971a-6f028da0d4b3")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "#PWR02")
 					(unit 1)
@@ -8010,7 +8010,7 @@
 			(uuid "abeb6cf3-7a10-488a-814f-7ffc4db4a729")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R16")
 					(unit 1)
@@ -8094,7 +8094,7 @@
 			(uuid "40d79025-adc0-40ac-bd07-662733651fc2")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "Q5")
 					(unit 1)
@@ -8173,7 +8173,7 @@
 			(uuid "1cdc26d8-3862-4f5c-93c0-eae91975d742")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R37")
 					(unit 1)
@@ -8253,7 +8253,7 @@
 			(uuid "d6d4650f-8079-4004-8182-6972b07e4446")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "F4")
 					(unit 1)
@@ -8333,7 +8333,7 @@
 			(uuid "3c0204e8-97a5-470a-8917-83fb1753cf19")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "F11")
 					(unit 1)
@@ -8415,7 +8415,7 @@
 			(uuid "394f73db-b054-42d2-bb95-f75b4fa1150c")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R1")
 					(unit 1)
@@ -8494,7 +8494,7 @@
 			(uuid "cfa6d65b-7da9-4213-9b1f-b40749e56035")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R27")
 					(unit 1)
@@ -8578,7 +8578,7 @@
 			(uuid "0c49ed96-9b0e-4a86-b19a-172fd3bdd328")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "Q11")
 					(unit 1)
@@ -8660,7 +8660,7 @@
 			(uuid "199d524c-9913-4fcd-b0f7-88339c8a55e7")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R13")
 					(unit 1)
@@ -8739,7 +8739,7 @@
 			(uuid "cd374d1a-4743-4af2-be8b-cc30df68face")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R38")
 					(unit 1)
@@ -8818,7 +8818,7 @@
 			(uuid "dd5e97f3-2131-4a8b-921c-442da873e380")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R30")
 					(unit 1)
@@ -8897,7 +8897,7 @@
 			(uuid "7c2b8fb2-8bb7-49ba-a099-5afcf5fda48d")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R24")
 					(unit 1)
@@ -8976,7 +8976,7 @@
 			(uuid "93219f71-6c8f-479d-854f-151415d3a438")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R18")
 					(unit 1)
@@ -9058,7 +9058,7 @@
 			(uuid "028f2b25-a718-459f-b9c5-b69ab2d039d0")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C1")
 					(unit 1)
@@ -9138,7 +9138,7 @@
 			(uuid "61467f80-bdf4-4ffc-9a08-d75bf99b7f83")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "F13")
 					(unit 1)

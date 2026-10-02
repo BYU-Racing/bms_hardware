@@ -1579,18 +1579,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "For Nathan:\nif you would like to change to Ryan's transformer\nfeel free, but just make sure to get the right footprint\nI-I-> Right now I am going to keep it the same. I see no reason to change it."
-		(exclude_from_sim no)
-		(at 198.628 33.274 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "0ee2fd27-dd6f-43d1-86b9-cd083eb05733")
-	)
 	(text "setup as shown on pg 92 of LTC6811I-1 datasheet"
 		(exclude_from_sim no)
 		(at 73.406 24.384 0)
@@ -1602,16 +1590,6 @@
 			)
 		)
 		(uuid "40a5ea7a-e11a-41bd-a158-7874c2d026c0")
-	)
-	(text "Ryan suggested: HM0068ANL"
-		(exclude_from_sim no)
-		(at 177.292 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4337511e-ec10-42a1-86be-ee0402600f5b")
 	)
 	(junction
 		(at 140.97 67.31)
@@ -1632,16 +1610,22 @@
 		(uuid "6d2e7967-30d4-45d4-8c85-5a73af828ac2")
 	)
 	(junction
+		(at 140.97 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72e4901c-860c-40a4-9fed-e7076e5b5406")
+	)
+	(junction
 		(at 140.97 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bcffa2e-9370-4ce2-bb15-046aeda1eafd")
 	)
 	(junction
-		(at 142.24 52.07)
+		(at 140.97 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7d93c4c4-1866-482e-8bec-a89fc499757c")
+		(uuid "a077a88e-cec9-4398-8f35-bc16c3a33897")
 	)
 	(junction
 		(at 66.04 78.74)
@@ -1660,12 +1644,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfca89c8-a4d6-4e4c-8cd6-8c4e4ad596d1")
-	)
-	(junction
-		(at 142.24 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7959dca-d3f4-433b-91f0-028d00200cd7")
 	)
 	(junction
 		(at 154.94 78.74)
@@ -1719,7 +1697,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 57.15) (xy 142.24 57.15)
+			(xy 135.89 57.15) (xy 140.97 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1746,6 +1724,16 @@
 			(type default)
 		)
 		(uuid "37dbd3f8-efba-45d2-8f42-6bd5b5bc01f5")
+	)
+	(wire
+		(pts
+			(xy 140.97 52.07) (xy 161.29 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a3c74b-4624-46ff-9161-54b7eef8894a")
 	)
 	(wire
 		(pts
@@ -1829,16 +1817,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 52.07) (xy 161.29 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7688c035-2f7c-4a07-a0fa-5cab8bbdd69b")
-	)
-	(wire
-		(pts
 			(xy 158.75 64.77) (xy 161.29 64.77)
 		)
 		(stroke
@@ -1919,16 +1897,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 57.15) (xy 161.29 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a71fdab8-ae36-4296-a6eb-6017af82ff18")
-	)
-	(wire
-		(pts
 			(xy 154.94 78.74) (xy 154.94 80.01)
 		)
 		(stroke
@@ -1959,7 +1927,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 52.07) (xy 142.24 52.07)
+			(xy 135.89 52.07) (xy 140.97 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2026,6 +1994,16 @@
 			(type default)
 		)
 		(uuid "d532f0e4-57ac-40f6-9359-0848381c2644")
+	)
+	(wire
+		(pts
+			(xy 140.97 57.15) (xy 161.29 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7424aa9-893a-4193-8125-57b71de9c2da")
 	)
 	(wire
 		(pts
@@ -2336,7 +2314,7 @@
 			(uuid "366b1636-d28e-4aa0-b4d4-5b4951cee8b9")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/33276a2f-22a9-4a64-97a7-172a4edf84ea"
 					(reference "C24")
 					(unit 1)
@@ -2458,7 +2436,7 @@
 			(uuid "76cdc9e3-6427-4eef-b9d6-9cc3fd55d157")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/33276a2f-22a9-4a64-97a7-172a4edf84ea"
 					(reference "TR1")
 					(unit 1)
@@ -2538,7 +2516,7 @@
 			(uuid "fad4cc7b-b014-4118-9819-ceb2ca0e77cc")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/33276a2f-22a9-4a64-97a7-172a4edf84ea"
 					(reference "R64")
 					(unit 1)
@@ -2619,7 +2597,7 @@
 			(uuid "a207d000-87d1-4546-8483-5ebb05010ad1")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/33276a2f-22a9-4a64-97a7-172a4edf84ea"
 					(reference "C28")
 					(unit 1)
@@ -2629,7 +2607,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 142.24 54.61 180)
+		(at 140.97 54.61 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2640,7 +2618,7 @@
 		(fields_autoplaced yes)
 		(uuid "8880b048-d0be-4c62-98ae-248448248438")
 		(property "Reference" "R67"
-			(at 144.78 53.3399 0)
+			(at 143.51 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2651,7 +2629,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 144.78 55.8799 0)
+			(at 143.51 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2662,7 +2640,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 142.24 54.61 0)
+			(at 140.97 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2673,7 +2651,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 54.61 0)
+			(at 140.97 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2684,7 +2662,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 142.24 54.61 0)
+			(at 140.97 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2701,7 +2679,7 @@
 			(uuid "195ff2ab-54c8-43f6-898f-c359821a5329")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/33276a2f-22a9-4a64-97a7-172a4edf84ea"
 					(reference "R67")
 					(unit 1)
@@ -2783,7 +2761,7 @@
 			(uuid "52f2900b-5389-4f75-85ed-729c027238ea")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/33276a2f-22a9-4a64-97a7-172a4edf84ea"
 					(reference "R66")
 					(unit 1)
@@ -2865,7 +2843,7 @@
 			(uuid "5417776b-3992-4b10-b793-ca99e87ee34e")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/33276a2f-22a9-4a64-97a7-172a4edf84ea"
 					(reference "C27")
 					(unit 1)
@@ -2943,7 +2921,7 @@
 			(uuid "a64b74c5-b438-4a8c-9be1-f1a2a9b538f2")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/33276a2f-22a9-4a64-97a7-172a4edf84ea"
 					(reference "#PWR043")
 					(unit 1)
@@ -3021,7 +2999,7 @@
 			(uuid "af4f1694-d5c1-49b8-b9df-df8e68cb094b")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/33276a2f-22a9-4a64-97a7-172a4edf84ea"
 					(reference "#PWR042")
 					(unit 1)
@@ -3103,7 +3081,7 @@
 			(uuid "c069b954-cceb-4624-80dc-1dd20048ec67")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/33276a2f-22a9-4a64-97a7-172a4edf84ea"
 					(reference "C25")
 					(unit 1)
@@ -3185,7 +3163,7 @@
 			(uuid "8d46bd14-d81c-42a4-98e8-8222132785c4")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/33276a2f-22a9-4a64-97a7-172a4edf84ea"
 					(reference "R65")
 					(unit 1)
@@ -3267,7 +3245,7 @@
 			(uuid "0ad85032-101a-43c2-bd37-179e8221595d")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/33276a2f-22a9-4a64-97a7-172a4edf84ea"
 					(reference "C26")
 					(unit 1)

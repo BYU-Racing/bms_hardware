@@ -1767,28 +1767,6 @@
 		)
 		(uuid "4c36b420-f5a2-4980-9d04-e51b07b199c4")
 	)
-	(text "Note by Rugby 7/31:\nNEED TO EDIT INDUCTOR FOOTPRINT\nlook at DigiKey Part number\nto find datasheet with correct footprint\nI-I-> Completed 8/2/26\n"
-		(exclude_from_sim no)
-		(at 220.98 77.978 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8446c44b-6cdb-4e63-9551-b13343f4620c")
-	)
-	(text "TO DO for Nathan:\ncan you verify R62 value? seems very specific.\nI-I->It is needed. See the table on page 10.\n\nIf thats the true value needed I suggest that\nwe use 2 separate resistors in series to acheive this value\nie use one 330k resistor and two 22k resistors all in series\nI-I-> added 374K resistor to Digikey order"
-		(exclude_from_sim no)
-		(at 211.582 146.05 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "8be77a07-70fa-4519-ab2e-6ec77ab002f2")
-	)
 	(text "LT3990 datasheet Link"
 		(exclude_from_sim no)
 		(at 255.27 48.26 0)
@@ -2975,7 +2953,7 @@
 			(uuid "7ab4e1c3-5e25-40dc-99b2-154517694089")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "C21")
 					(unit 1)
@@ -3054,7 +3032,7 @@
 			(uuid "b928f4f4-5c83-4fb9-919b-b466a689e09b")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "R63")
 					(unit 1)
@@ -3133,7 +3111,7 @@
 			(uuid "3e80d411-29a6-44ec-b2a0-aa906d8d3647")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "R61")
 					(unit 1)
@@ -3213,7 +3191,7 @@
 			(uuid "5c9ef49d-a950-4270-9399-23a95166c694")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "TP4")
 					(unit 1)
@@ -3293,7 +3271,7 @@
 			(uuid "7e435abc-edba-46d5-9680-40fd51e28b22")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "TP3")
 					(unit 1)
@@ -3373,7 +3351,7 @@
 			(uuid "e9c8f120-a434-4e18-b142-3cd1895ac037")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "TP1")
 					(unit 1)
@@ -3500,7 +3478,7 @@
 			(uuid "aa8ea17a-e9cd-4d8c-a855-c884cc3f8cc4")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "U5")
 					(unit 1)
@@ -3579,7 +3557,7 @@
 			(uuid "b936aeaa-8ad3-47e4-ba65-9d0e13e2b0f7")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "R60")
 					(unit 1)
@@ -3658,7 +3636,7 @@
 			(uuid "88cd3814-513c-4ae7-ac3c-d8fdde480a24")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "TP2")
 					(unit 1)
@@ -3738,7 +3716,7 @@
 			(uuid "773fd2c2-8cb4-4163-acc5-07bc75bad5a7")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "TP6")
 					(unit 1)
@@ -3820,7 +3798,7 @@
 			(uuid "e0e6014e-9caf-4cd6-8ab5-1a7faa9dc830")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "C22")
 					(unit 1)
@@ -3899,7 +3877,7 @@
 			(uuid "85edfcc5-e9b9-4f3b-9c34-f07a757fc65f")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "R62")
 					(unit 1)
@@ -3979,7 +3957,7 @@
 			(uuid "4854870e-ce51-46e7-b86f-5679b5d3f478")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "TP7")
 					(unit 1)
@@ -4072,7 +4050,7 @@
 			(uuid "82426b32-a5a6-49f1-874b-1eb0dca6ba49")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "D1")
 					(unit 1)
@@ -4160,7 +4138,7 @@
 			(uuid "e06a9284-2803-4299-a755-4b7da21418b4")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "Q13")
 					(unit 1)
@@ -4251,7 +4229,7 @@
 			(uuid "da6777b4-c238-4947-9416-5c1b8ffb7765")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "L1")
 					(unit 1)
@@ -4333,7 +4311,7 @@
 			(uuid "4aec4bcc-7c3e-481b-8940-6a1277216125")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "C23")
 					(unit 1)
@@ -4413,7 +4391,7 @@
 			(uuid "6367a1bb-3c8f-4425-b6a9-f2cf4c10fb4b")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "TP8")
 					(unit 1)
@@ -4493,7 +4471,7 @@
 			(uuid "d45686bc-dcd9-4b98-8b94-453c095a1937")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "TP9")
 					(unit 1)
@@ -4571,7 +4549,7 @@
 			(uuid "ddd651d8-f52f-4361-ace8-d10e65f37940")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21687209-543f-4328-b182-68e46d7f367b"
 					(reference "#PWR041")
 					(unit 1)

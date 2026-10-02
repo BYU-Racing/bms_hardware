@@ -1024,6 +1024,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
 				(offset 1.016)
@@ -1479,18 +1662,6 @@
 		)
 		(uuid "da29c6d8-b906-4a94-9811-5092c4ba787e")
 	)
-	(text "UnI-used lines for Energy Meter pass thru"
-		(exclude_from_sim no)
-		(at 348.488 124.206 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "f1d96c95-2422-4c5e-88ff-b6cab7ff442b")
-	)
 	(text "Just as a note for ALL component footprints:\nI- make ALL caps 0805 handsolder (except voltage tap ones)\nI- make any resistor dealing with signal logic 0603 handsolder\nI- make any resistor carrying high current >=0805\nI- try to find handsolder footprint versions of any other component"
 		(exclude_from_sim no)
 		(at 33.782 31.242 0)
@@ -1507,6 +1678,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1175f3b1-d032-4c7b-be64-429a303a528e")
+	)
+	(junction
+		(at 336.55 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f4514ac-0d9e-4fc6-bec3-be9d876aa4a2")
+	)
+	(junction
+		(at 335.28 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58b2c564-60ad-455a-9ca4-970a8111409f")
 	)
 	(junction
 		(at 243.84 139.7)
@@ -1541,24 +1724,18 @@
 		(uuid "10355f2f-c30b-4013-9f0e-6eb1b7bea310")
 	)
 	(no_connect
-		(at 337.82 106.68)
-		(uuid "426b13c5-edfe-4085-bdbd-ab2ae4063076")
-	)
-	(no_connect
-		(at 337.82 115.57)
-		(uuid "5169f316-4a5f-44d6-a65a-d8eb6e8ba20c")
-	)
-	(no_connect
-		(at 337.82 118.11)
-		(uuid "7b6d43d1-9334-4e94-b5c7-d1d1bccba57a")
-	)
-	(no_connect
 		(at 226.06 114.3)
 		(uuid "b6b70d38-9e10-45eb-967f-d7b48e761fd2")
 	)
-	(no_connect
-		(at 337.82 104.14)
-		(uuid "e466bd6a-3722-495a-9e1d-30a189fb8b3a")
+	(wire
+		(pts
+			(xy 337.82 104.14) (xy 335.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0347430a-4afc-439b-a5c6-438192fad514")
 	)
 	(wire
 		(pts
@@ -1582,6 +1759,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 104.14) (xy 335.28 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051b67f0-a121-4a26-95c3-1e943c5d0621")
+	)
+	(wire
+		(pts
 			(xy 100.33 128.27) (xy 109.22 128.27)
 		)
 		(stroke
@@ -1589,6 +1776,16 @@
 			(type default)
 		)
 		(uuid "058f310e-9af2-452d-a12c-34921483f577")
+	)
+	(wire
+		(pts
+			(xy 336.55 118.11) (xy 337.82 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f0bf23-3e54-4da6-92f9-61afa87de998")
 	)
 	(wire
 		(pts
@@ -1932,6 +2129,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 128.27) (xy 337.82 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b255f5-02aa-46e6-be43-476f58aed1ed")
+	)
+	(wire
+		(pts
 			(xy 175.26 142.24) (xy 180.34 142.24)
 		)
 		(stroke
@@ -2049,6 +2256,16 @@
 			(type default)
 		)
 		(uuid "5ff5b349-d7c7-4acd-beb9-89ec8d592765")
+	)
+	(wire
+		(pts
+			(xy 335.28 115.57) (xy 335.28 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "677059c1-9379-4215-80cd-042a2817f70d")
 	)
 	(wire
 		(pts
@@ -2312,6 +2529,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 115.57) (xy 337.82 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97697665-e198-42a5-87e4-6ebe52c0fb42")
+	)
+	(wire
+		(pts
 			(xy 175.26 119.38) (xy 180.34 119.38)
 		)
 		(stroke
@@ -2442,6 +2669,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 106.68) (xy 336.55 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa136c6-ab72-4485-a578-a20ebedd1f43")
+	)
+	(wire
+		(pts
 			(xy 276.86 189.23) (xy 69.85 189.23)
 		)
 		(stroke
@@ -2449,6 +2686,16 @@
 			(type default)
 		)
 		(uuid "ab50ce61-fadc-47a7-9f36-7f18f0c16bc0")
+	)
+	(wire
+		(pts
+			(xy 336.55 130.81) (xy 337.82 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7626c3-a6a5-47e8-bf64-4a4f7587ac01")
 	)
 	(wire
 		(pts
@@ -2469,6 +2716,16 @@
 			(type default)
 		)
 		(uuid "ae584a87-0b6e-4bd8-9faa-c5d002172f8b")
+	)
+	(wire
+		(pts
+			(xy 336.55 118.11) (xy 336.55 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b109aafa-f189-4074-ad64-e307ca2a573e")
 	)
 	(wire
 		(pts
@@ -2739,6 +2996,16 @@
 			(type default)
 		)
 		(uuid "d3404737-3671-45bc-a154-efbd222ddb5a")
+	)
+	(wire
+		(pts
+			(xy 336.55 106.68) (xy 336.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f54a70-5841-440f-988f-b76ece1a45ae")
 	)
 	(wire
 		(pts
@@ -3050,6 +3317,26 @@
 		)
 		(uuid "ff996f97-3a9d-432b-899c-07383ce4825a")
 	)
+	(label "E_Meter_Temp_Sensor_Return"
+		(at 336.55 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1316f93a-86d4-48f7-a256-2febfc7b362c")
+	)
+	(label "E_Meter_Temp_Sensor_Data"
+		(at 335.28 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7e8832e-c374-4a06-b5b6-a7ef01439dc8")
+	)
 	(symbol
 		(lib_id "BYU_LIBRARY:LTC6811HG-1-3ZZTRPBF")
 		(at 180.34 104.14 0)
@@ -3262,7 +3549,7 @@
 			(uuid "5f9d1991-bf00-48a0-ae37-f17b9eb9f0e3")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27"
 					(reference "U1")
 					(unit 1)
@@ -3350,9 +3637,90 @@
 			(uuid "e8bae333-0768-4cf4-9e85-2ce6977a2182")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 342.9 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45b02000-37be-4c64-a148-25236c21461c")
+		(property "Reference" "J?"
+			(at 338.836 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Energy Meter One Wire Temp Sensor (Dallas DS18B20)"
+			(at 338.582 135.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 342.9 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "87017457-16ea-4966-97fa-02ba7edc9c35")
+		)
+		(pin "1"
+			(uuid "97a192b1-59e3-4a07-9276-c79b5d0eb76d")
+		)
+		(instances
+			(project "bms_slave_pcb_V2.01"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27"
+					(reference "J?")
 					(unit 1)
 				)
 			)
@@ -3429,7 +3797,7 @@
 			(uuid "f4a0b6dc-306b-44f8-a961-80e5372ec3c6")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27"
 					(reference "#PWR01")
 					(unit 1)
@@ -3517,7 +3885,7 @@
 			(uuid "5051bd86-2c73-48b7-9542-8e41f154af14")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27"
 					(reference "J2")
 					(unit 1)
@@ -3954,7 +4322,7 @@
 			)
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27"
 					(page "2")
 				)
@@ -4030,7 +4398,7 @@
 			)
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27"
 					(page "6")
 				)
@@ -4326,7 +4694,7 @@
 			)
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27"
 					(page "5")
 				)
@@ -4522,7 +4890,7 @@
 			)
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27"
 					(page "7")
 				)
@@ -4758,7 +5126,7 @@
 			)
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_slave_pcb_V2.01"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27"
 					(page "3")
 				)
