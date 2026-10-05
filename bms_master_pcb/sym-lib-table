@@ -1,5 +1,0 @@
-(sym_lib_table
-	(version 7)
-	(lib (name "LTC6820") (type "KiCad") (uri "${KIPRJMOD}/components/KiCADv6/2026-07-10_04-22-50.kicad_sym") (options "") (descr ""))
-	(lib (name "work_symbols") (type "KiCad") (uri "${KIPRJMOD}/work_symbols.kicad_sym") (options "") (descr ""))
-)
