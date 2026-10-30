@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "BMS_library") (type "KiCad") (uri "C:/Users/rugby/Documents/ECEN JUNIOR CORE/BYU_racing_club/KiCad_components/BMS_library.kicad_sym") (options "") (descr ""))
+)
