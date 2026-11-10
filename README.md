@@ -1,6 +1,6 @@
 # BYU Racing 2027 BMS Project
 
-<img src="BYU_Racing_Logos/byulogo.png" alt="BMS board" width="70%">
+<img src="BYU_Racing_Logos/byulogo.png" alt="BMS board" width="100" height="50">
 
 This repo contains all relevant PCB files and explanations relating to the team's custom solution for a BMS.
 
