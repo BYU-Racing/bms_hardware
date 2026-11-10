@@ -1,0 +1,371 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 2
+/Kids [ 4 0 R 10 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 7934
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 52.8 726.4 cm
+q
+.101961 .168627 .290196 rg
+BT 1 0 0 1 0 3 Tm /F2 17 Tf 20 TL 63.7945 0 Td (Battery Management System \227 Design Debrief) Tj T* -63.7945 0 Td ET
+Q
+Q
+q
+1 0 0 1 52.8 712.4 cm
+q
+.333333 .333333 .333333 rg
+BT 1 0 0 1 0 2.5 Tm /F1 9.5 Tf 12 TL 37.88725 0 Td (BYU Racing FSAE Electric Vehicle Team | Prepared by Rugby Taylor, Chief Electrical Systems Officer) Tj T* -37.88725 0 Td ET
+Q
+Q
+q
+1 0 0 1 52.8 701.4 cm
+q
+1 w
+1 J
+.101961 .168627 .290196 RG
+n 0 0 m 506.4 0 l S
+Q
+Q
+q
+1 0 0 1 52.8 673.4 cm
+q
+.101961 .168627 .290196 rg
+BT 1 0 0 1 0 6.5 Tm /F2 11.5 Tf 18 TL (1. System Overview) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 618.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 41.9 Tm /F1 9.3 Tf 12.8 TL (The tractive battery is configured as 108S4P, built from nine 12S4P modules \(~50 V per module\) using Reliance) Tj T* (INR21700-RS50 cylindrical cells \(switched from Molicel P45B this design cycle\). The BMS is a distributed architecture with) Tj T* (one slave board per module and a central master board, communicating over an isoSPI daisy chain. The system is) Tj T* (responsible for cell voltage and temperature monitoring, passive balancing, fault detection, and drive-event data logging.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 590.2 cm
+q
+.101961 .168627 .290196 rg
+BT 1 0 0 1 0 6.5 Tm /F2 11.5 Tf 18 TL (2. Slave Board Architecture) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 561.2 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 2 13 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 64.8 561.2 cm
+q
+BT 1 0 0 1 0 15.7 Tm 12.5 TL /F2 9.3 Tf 0 0 0 rg (Monitoring IC:) Tj /F1 9.3 Tf ( Analog Devices LTC6811-1 multi-cell battery stack monitor, one per 12S4P module, providing per-cell) Tj T* (voltage sensing and support for temperature acquisition and passive balancing.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 484.2 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 2 63 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 64.8 484.2 cm
+q
+BT 1 0 0 1 0 65.7 Tm 12.5 TL /F2 9.3 Tf 0 0 0 rg (Thermistor sensing:) Tj /F1 9.3 Tf ( NMUX1308PW-Q100 analog multiplexer expands the LTC6811-1's GPIO inputs to scan multiple) Tj T* (thermistor channels per module. Each module is instrumented with one NTC thermistor per parallel cell group \(12) Tj T* (thermistors per module\), and hardware provisions for additional thermistors to monitor module case temperature are) Tj T* (included for a planned future addition to the BMS. As dictated by FSAE rules, a DS18B20 energy meter temperature) Tj T* (sensor is also included on the negative-most cell of each module, wired for parasite power \(Vdd tied to Gnd\) with) Tj T* (electrical isolation maintained between the sensor and the cell.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 432.2 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 2 38 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 64.8 432.2 cm
+q
+BT 1 0 0 1 0 40.7 Tm 12.5 TL /F2 9.3 Tf 0 0 0 rg (Communication:) Tj /F1 9.3 Tf ( isoSPI daisy-chain topology links all nine slave boards to the master board. An LTC6820 isoSPI) Tj T* (transceiver on the master board provides the physical-layer interface while keeping the master electrically isolated from) Tj T* (the HV-referenced slave stack, which is central to the system's electrical safety case. isoSPI and energy-meter) Tj T* (passthrough signals both route off the master through a shared Molex Micro-Fit 3.0 connector.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 405.2 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 2 13 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 64.8 405.2 cm
+q
+BT 1 0 0 1 0 15.7 Tm 12.5 TL /F2 9.3 Tf 0 0 0 rg (Board construction:) Tj /F1 9.3 Tf ( FR4 slave boards; each slave connects to its module's flex PCB \(FPC\) through a Molex) Tj T* (connector.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 377.2 cm
+q
+.101961 .168627 .290196 rg
+BT 1 0 0 1 0 6.5 Tm /F2 11.5 Tf 18 TL (3. Flex PCB \(FPC\) Design) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 348.2 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 2 13 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 64.8 348.2 cm
+q
+BT 1 0 0 1 0 15.7 Tm 12.5 TL /F2 9.3 Tf 0 0 0 rg (Purpose:) Tj /F1 9.3 Tf ( A custom FPC is being developed for each module to carry the per-module voltage tap connections, with the) Tj T* (module's thermistors also living on the FPC.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 333.7 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 2 .5 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 64.8 333.7 cm
+q
+BT 1 0 0 1 0 3.2 Tm 12.5 TL /F2 9.3 Tf 0 0 0 rg (Voltage taps:) Tj /F1 9.3 Tf ( Currently testing a soldered connection point for each voltage tap onto the FPC.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 306.7 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 2 13 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 64.8 306.7 cm
+q
+BT 1 0 0 1 0 15.7 Tm 12.5 TL /F2 9.3 Tf 0 0 0 rg (Thermistors:) Tj /F1 9.3 Tf ( Vishay NTCS0603E3103FLT NTC thermistors \(0603 package\) mounted directly on the FPC, one per) Tj T* (parallel cell group.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 279.7 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 2 13 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 64.8 279.7 cm
+q
+BT 1 0 0 1 0 15.7 Tm 12.5 TL /F2 9.3 Tf 0 0 0 rg (Slave connector:) Tj /F1 9.3 Tf ( The FPC mates to its slave board through a Molex 2190190120 connector on the FPC, plugging into) Tj T* (the Molex 2254330120 female connector on the slave PCB \(see Section 2\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 252.7 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 2 13 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 64.8 252.7 cm
+q
+BT 1 0 0 1 0 15.7 Tm 12.5 TL /F2 9.3 Tf 0 0 0 rg (Mounting & mechanical interface:) Tj /F1 9.3 Tf ( Still to be finalized; thermal epoxy or Kapton tape is being evaluated to prevent) Tj T* (shorts at the FPC-to-module interface.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 224.7 cm
+q
+BT 1 0 0 1 0 6.5 Tm 18 TL /F2 11.5 Tf .101961 .168627 .290196 rg (4. Cell Balancing & Overcurrent Protection) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 195.7 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 2 13 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 64.8 195.7 cm
+q
+BT 1 0 0 1 0 15.7 Tm 12.5 TL /F2 9.3 Tf 0 0 0 rg (Passive balancing:) Tj /F1 9.3 Tf ( Resistor-based passive balancing per cell using 33 ) Tj /F3 9.3 Tf 12.5 TL (W) Tj /F1 9.3 Tf 12.5 TL ( balance resistors, discharging the) Tj T* (highest-voltage cells in a module while the LTC6811-1 gates the balance FETs.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 156.2 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 2 25.5 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 64.8 156.2 cm
+q
+BT 1 0 0 1 0 28.2 Tm 12.5 TL /F2 9.3 Tf 0 0 0 rg (Fuse protection:) Tj /F1 9.3 Tf ( Each voltage tap is individually fused using Littelfuse 01550900M cartridge fuse holders. The inner) Tj T* (\(balance\) taps are fused at 250 mA, while the lowest voltage tap \(GNDREF for the module\) and the highest voltage tap) Tj T* (\(V+\) are each fused at 500 mA to account for their higher shared current paths.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 79.2 cm
+BT /F1 12 Tf 14.4 TL ET
+0 0 0 rg
+BT 1 0 0 1 2 63 Tm (\177) Tj T* ET
+Q
+q
+1 0 0 1 64.8 79.2 cm
+q
+BT 1 0 0 1 0 65.7 Tm 12.5 TL /F2 9.3 Tf 0 0 0 rg (Design correction \(inspection note\):) Tj /F1 9.3 Tf ( During bench testing of individual modules, the original resistor/fuse combination) Tj T* (held up fine. The nuisance fuse blows only appeared once multiple modules were connected together in series to form) Tj T* (the full tractive battery, where the steady-state balancing current pushed close enough to the fuse rating to trip it. Rather) Tj T* (than simply increasing the balance resistor value, the resistor and fuse values were re-sized together to arrive at a new) Tj T* (optimized combination \(33 ) Tj /F3 9.3 Tf 12.5 TL (W) Tj /F1 9.3 Tf 12.5 TL ( resistors with the 250 mA / 500 mA fuse scheme above\) that restores adequate margin at) Tj T* (full-pack operating conditions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 52.8 51.2 cm
+q
+BT 1 0 0 1 0 6.5 Tm 18 TL /F2 11.5 Tf .101961 .168627 .290196 rg (5. Master Board, Communication & Data Logging) Tj T* ET
+Q
+Q
+ 
+
+Q
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F1-0 9.5 Tf
+11.4 TL
+ET
+0.333333 0.333333 0.333333 rg
+BT
+1 0 0 1 262.9602 754 Tm
+(September 29\054 2026) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Symbol
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Contents 11 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 12 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 2401
+>>
+stream
+Gau0D>Beg]%Xua-^sfGJ-[%o"QL2srS2?f'8NLSFc+`7mOXZbu8^rid4e?#q!-PR,qkPSe9kp(A!.Fo3!+OmF%s*5q'OWbPM]2lELN*a(gZcTM%_dnJr]F]@cCWo25i64a'W#I>p3U\dT$iAiU^o#,E=/faf'e*?nK0IaL%]t&P9+o!V>n)T*.N=+4pbVGVal%cDL<:E!`E=iK@Z=1XB%n:oOk(Sbc<Y0i+[Q\pg:Z3mc0XR!3(paMOOLZVc,1Eg^4/3W2GDTQuL4leg^ip,`p,AJ4]N@^oQI@@a77UR=Uku5MCs]MZdKq,dtEk.oB4_SHI1b+>YNibTi@cOELhO-=AH<1.oL"%K,o.L<%.`+]0`X]E.3m-MZPMFb]o9I(r1MSH+-aIfk.Ld.*17J,*sKXuflB?7=S_&\5\AR0>Y@=r>23>I;e1+0R[+CFl37(^":8=)$Xeg;$?Sr+5-F`'*+R$,fG'1uim3F9?lcd^7)+`3!"lb9qQ)rP$a%M'?PP3eL[1V57JWU(ab[@-&Juc%X0<PTD(N,8?6<`TDGu7`fK3!hlm9`K!r+73YW<p%"JSHenG+ou*A8Uq\:TDCDMN'fI`3%[UK'\qJEtIn\p&>+S]_+YT"sJAZb4BYl/r3i2LSkRqd"*QIKbo*EuJWrg&R-'q>nA11,F)IQPb[pB!,PAk5>3btgBA0n,8Lg0N)'!Aaq'!loF[U-bJ8:JbcT:i["9LMqG@h/&++6ekjqAtF!]oL-b!TqR6hgE+aL0Q>"U,(KjShZrq\po<r)bV^u73]2F@[B='G6_<=,@UD)p#*CO!Noq>\*#6GHn$iD;&P+9WNPf]pa\ig9@$<h?ds;naRU)QdEqJI82$%?m<Kc[G:ibVnUII6;i9C1Ue3:aeWm&;+$SS,@<^45?MF9TrW\1ZFG?JaL#h"WNt<\obRh\nglD_0XlaYU]U,UV+NA4gYe4@K'%TT(.jiX\f57TB8=,?:f(i7`0)Y1Arekp;0e_d5\rHdIlN\L;GU*0"!&kZb6;2ShIO23B=-7cg,b$h].C:MVg/1@s(=rgB:NN6HX>,Z#SU'_Zhi>;T4J\j;M\&Pl%W66)2_K>hfk$0XQR#5n4d$@a8BVEuah3!^-Rj-u:)'V-ad',Jlj]I6UnJ*L1'k,LUK*MtJ.1&7MAUt8*:m@C=6&"C*ZKhB3\26nSNt4;dMEiDo,oRl59\8gI7>k##l@ZTJHqOcQTCR,Mi!Am*msE[.)P6+'d)'T$p1Oif6E5$6.4r+\8%9YdP=oe#k//OF)q*43#E,g#Me/6@t8hD@Xesf!,Tme9G42,4",0*[TD@(0U:c5b>*b/j2AS"(%sPebog#S6qJXHOub'<QKRkNl,/n39I.t3;FQ=V[#HAmXu26B6R4mnC/SFPe!W/.5],+@V-IWpLl8nD?4HGN]=?aL-eDP1+0cEGF/4bm,#('uaHtIpAr+,LoH-LQ[)aH]nnG:MR*l'B=GU9HAmOOs]n[V<2^Ck,q];?J9T4HeEV*1J$>@!('Eju2g=.!`LRo#ps/XIj,]*A%)o5s4Vt*2q]A^mHpN]--,>+c418_NMUC](7W$dqfaUtWP[$_lBaC0FXB/gP"5:<$.0L\`X9Xg^/?(/skrAS88K_lGs[^4jgp+#`q?.Pc+E^5hH_`b##WK(P`?)8jm'Z_Ma!Pc42BW[/VAA'H<0UG8CaoqV>-BU;`N5iAAOEgr(Chtg8O;,%q3["o,F5$=FDN3ri[f!Oi<M09''<5ZoQ"EU_Pg#4+*.GW2c@tR9bEOBq,VgRd/.I86@2D6eL:0^u9j*DoIOqJIFmfS)l?Ob3q2Pg"':qXQfF+h59)'Ig<iU=WW5YoR=u@`p!**59Cmjh.c%`&t5u'.t]"E21;b;Znk?.KCSO-h4:?;Xhl2X4SA`&u3^S<S8E6+f_/-&1Z3p;Vl-3(Oo%;Fa>=0(r;o),g5q9r!*p*>Z0\jF4b@eD<##?kCdjBoZ-5CU._Tgb`Q^h.@VVYRX9pql9co;'/me=s'cMkL+;VNn,GOjkMp-?WP?18==[;io!YOLD-G,:=>?S$2gD^OMd4:!8$I?dB;W`EMe)X)_*%i@Np<]]OS0c$/$6IJ&WV1<R2]XLY6@c.0jHbrsTmXt8-sm\*s,'sCq`&*4..UmLEr5HX;I^8lSe]W+3K>4MKB'0:m^qjIQZ2+=)e9s0%_'bs^'p9S^P6-'NpY6WL1`on9:4gcDd1fRFrLf9#D8s"+_<H,gj.Pl.S@$sjEeDM)YA_?4\@_%;#?TJc7HW3,.`E\;>k9G.o_gakKSbTe"P.a;7)t3WH&E&b!(&G*mX:?SGM%iTL7.9F_Y&=fWPNC>HasA-N\_sF(rG@>%/%6S&7Zd,9.]e!%JR1S69!&&4(Fj"2j#T+0=!q;ZcMe>eI5?-~>
+endstream
+endobj
+12 0 obj
+<<
+/F1 6 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000120 00000 n 
+0000000169 00000 n 
+0000000412 00000 n 
+0000008398 00000 n 
+0000008505 00000 n 
+0000008612 00000 n 
+0000008724 00000 n 
+0000008801 00000 n 
+0000008993 00000 n 
+0000011487 00000 n 
+trailer
+<<
+/Size 13
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+11539
+%%EOF
