@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "bms_master_footprints") (type "KiCad") (uri "${KIPRJMOD}/bms_master_footprints.pretty") (options "") (descr ""))
+)
