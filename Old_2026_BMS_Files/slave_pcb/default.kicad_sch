@@ -1,0 +1,24 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6084883f-8910-4bdd-839f-63692292b39d")
+	(paper "A4")
+	(lib_symbols)
+	(text "lets move towards the LTC6811-1 Slave chips"
+		(exclude_from_sim no)
+		(at 132.588 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "092e5b09-0ecf-407f-a2df-abbd5cdb0e91")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
