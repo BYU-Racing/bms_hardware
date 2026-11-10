@@ -3723,7 +3723,7 @@
 			(uuid "4e8c5adc-ab9e-4572-9234-cebf79d6ff8d")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "BT7")
 					(unit 1)
@@ -3802,7 +3802,7 @@
 			(uuid "33bd4caa-61eb-446b-ab98-732991d3dc72")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR021")
 					(unit 1)
@@ -3881,7 +3881,7 @@
 			(uuid "8ddd6d2b-485f-4840-9994-8f7abf50a266")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR019")
 					(unit 1)
@@ -3960,7 +3960,7 @@
 			(uuid "6608fdbe-d0c1-4324-9c4f-fae8e368e33f")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "H4")
 					(unit 1)
@@ -4075,7 +4075,7 @@
 			(uuid "e9ed2343-4d0b-42ca-b7af-112b7c5d5799")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "BT3")
 					(unit 1)
@@ -4187,7 +4187,7 @@
 			(uuid "43506425-4c93-4200-9dcd-a1289405e6e7")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "J5")
 					(unit 1)
@@ -4266,7 +4266,7 @@
 			(uuid "45d0ed72-a56b-4a12-8516-9f61daabfe03")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR027")
 					(unit 1)
@@ -4346,7 +4346,7 @@
 			(uuid "15cf31d5-ff47-4ccb-bd75-719752d6ecad")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR038")
 					(unit 1)
@@ -4425,7 +4425,7 @@
 			(uuid "c209be84-eebd-4185-8bec-f6c0304d786d")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR026")
 					(unit 1)
@@ -4504,7 +4504,7 @@
 			(uuid "a9f3b50e-e27b-4bc2-8f03-8c24f6a25948")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "H9")
 					(unit 1)
@@ -4619,7 +4619,7 @@
 			(uuid "2cd89b1f-73db-4bbc-ab8e-ab56e9524524")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "BT2")
 					(unit 1)
@@ -4698,7 +4698,7 @@
 			(uuid "61f4ec54-db65-4ca5-b527-9ef068dd1e4f")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR024")
 					(unit 1)
@@ -4813,7 +4813,7 @@
 			(uuid "3893f88a-aacb-410d-abdb-172f4c908ebd")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "BT11")
 					(unit 1)
@@ -4928,7 +4928,7 @@
 			(uuid "b65754ad-c59e-44d9-9ce7-884533f0b192")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "BT1")
 					(unit 1)
@@ -5007,7 +5007,7 @@
 			(uuid "c6d76ce1-95a4-4a8b-872a-826b81a0391d")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "H3")
 					(unit 1)
@@ -5087,7 +5087,7 @@
 			(uuid "a0676277-6588-4513-94ad-398ec1d61a57")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR033")
 					(unit 1)
@@ -5167,7 +5167,7 @@
 			(uuid "66d71ade-c0bd-4bd3-ab95-044038aa2a01")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR030")
 					(unit 1)
@@ -5246,7 +5246,7 @@
 			(uuid "eddc257a-42e2-4ddf-a7df-a4804ad34e1a")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "H2")
 					(unit 1)
@@ -5325,7 +5325,7 @@
 			(uuid "222bbdfb-7fa2-435d-9c50-8bf91317471a")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR028")
 					(unit 1)
@@ -5440,7 +5440,7 @@
 			(uuid "824ac4c4-ce9f-48f6-927d-fff40de81bf5")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "BT9")
 					(unit 1)
@@ -5519,7 +5519,7 @@
 			(uuid "200201bb-d950-44ed-aa3e-a919539e453f")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "H7")
 					(unit 1)
@@ -5599,7 +5599,7 @@
 			(uuid "bca62faf-06f5-4e5f-a673-4b92d0d74f45")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR040")
 					(unit 1)
@@ -5678,7 +5678,7 @@
 			(uuid "af16b589-fbf2-493e-88b0-5cbadd0ceec1")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "H10")
 					(unit 1)
@@ -5757,7 +5757,7 @@
 			(uuid "63ca6131-e780-4503-97ed-583efdba2602")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "H12")
 					(unit 1)
@@ -5836,7 +5836,7 @@
 			(uuid "95c531ec-dcfd-4289-9f50-b523263d9d08")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "H5")
 					(unit 1)
@@ -5915,7 +5915,7 @@
 			(uuid "cf6625c4-4ec6-4a62-87bc-b433bd25dfae")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "H6")
 					(unit 1)
@@ -5995,7 +5995,7 @@
 			(uuid "9f25c1fa-c9f3-4774-b8c9-83104885e3f3")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR036")
 					(unit 1)
@@ -6110,7 +6110,7 @@
 			(uuid "0db1d99b-847f-4fac-8cc4-f2aeb92db193")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "BT6")
 					(unit 1)
@@ -6189,7 +6189,7 @@
 			(uuid "ae888241-300a-4572-a6d6-fc540edba7bf")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "H1")
 					(unit 1)
@@ -6268,7 +6268,7 @@
 			(uuid "b9752e8c-919f-42c4-ab5f-4bd8647b61c1")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "H8")
 					(unit 1)
@@ -6347,7 +6347,7 @@
 			(uuid "cb9efd69-ce80-41e6-9295-c1d879bae0e8")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "H13")
 					(unit 1)
@@ -6427,7 +6427,7 @@
 			(uuid "7724a749-e1f7-4833-8efe-30d0d6791676")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR039")
 					(unit 1)
@@ -6506,7 +6506,7 @@
 			(uuid "a4de9aee-381e-44f1-a2db-6cac7a176db5")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR020")
 					(unit 1)
@@ -6585,7 +6585,7 @@
 			(uuid "d67916e8-454d-457d-9626-c924532f3fce")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR029")
 					(unit 1)
@@ -6665,7 +6665,7 @@
 			(uuid "843a4797-d3b9-4e9a-b8dd-a5da7ba673d5")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR031")
 					(unit 1)
@@ -6744,7 +6744,7 @@
 			(uuid "c6acebe2-63de-4507-8845-279bea455d8a")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "H11")
 					(unit 1)
@@ -6823,7 +6823,7 @@
 			(uuid "ab9c7b0c-77de-4261-8b77-46f512b1b4bf")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR022")
 					(unit 1)
@@ -6903,7 +6903,7 @@
 			(uuid "d087a790-d859-44d2-8bda-e4bef9984b8a")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR032")
 					(unit 1)
@@ -6983,7 +6983,7 @@
 			(uuid "faf4c8ba-f4a7-423e-8fe1-da1704670f07")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR034")
 					(unit 1)
@@ -7062,7 +7062,7 @@
 			(uuid "813b5350-69c6-4312-a1cc-74fbc85328b5")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR025")
 					(unit 1)
@@ -7172,7 +7172,7 @@
 			(uuid "8a3b0cc9-5663-4aa2-842a-c958655c9888")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "J7")
 					(unit 1)
@@ -7287,7 +7287,7 @@
 			(uuid "2fc68aa9-1ae5-44d8-a590-4542da88a506")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "BT12")
 					(unit 1)
@@ -7402,7 +7402,7 @@
 			(uuid "e58f816d-ee45-4e3e-acc7-7ab4e0ed105e")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "BT8")
 					(unit 1)
@@ -7482,7 +7482,7 @@
 			(uuid "26ad4627-359e-42d6-8bdf-7411e3621ba8")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR037")
 					(unit 1)
@@ -7592,7 +7592,7 @@
 			(uuid "e1a4b8bc-32d4-4d87-8dae-0794288297e2")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "J6")
 					(unit 1)
@@ -7672,7 +7672,7 @@
 			(uuid "38543438-04c9-4598-9b5f-f8c316fa856a")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR035")
 					(unit 1)
@@ -7787,7 +7787,7 @@
 			(uuid "19878269-fba3-45d2-af64-e7795c3c9d1c")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "BT4")
 					(unit 1)
@@ -7898,7 +7898,7 @@
 			(uuid "6eb712cd-8950-44fc-add8-61b683b2c863")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "J10")
 					(unit 1)
@@ -8013,7 +8013,7 @@
 			(uuid "37f1c828-8bc8-4eb1-8187-883527b20898")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "BT10")
 					(unit 1)
@@ -8122,7 +8122,7 @@
 			(uuid "2d4fee59-3b65-426e-bbea-dd1233a14945")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "J8")
 					(unit 1)
@@ -8234,7 +8234,7 @@
 			(uuid "bc357b07-dfda-4d38-a852-d9794971f9ae")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "J4")
 					(unit 1)
@@ -8349,7 +8349,7 @@
 			(uuid "71132d83-970b-4f5d-9139-df315add15e1")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "BT5")
 					(unit 1)
@@ -8428,7 +8428,7 @@
 			(uuid "aa1b4343-ff6e-4690-8dfa-5939043333ec")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "#PWR023")
 					(unit 1)
@@ -8537,7 +8537,7 @@
 			(uuid "7ccc4123-6565-46eb-9eba-813471ab0a35")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "J9")
 					(unit 1)
@@ -8648,7 +8648,7 @@
 			(uuid "da48fcf3-608e-46a6-a344-df25c8da56b6")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/21795935-00d0-4d5a-8902-c4143582e532"
 					(reference "J11")
 					(unit 1)

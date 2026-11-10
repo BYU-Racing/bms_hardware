@@ -5,13 +5,238 @@
 	(uuid "11e9f709-06d2-40c3-a913-5001168c5051")
 	(paper "A3")
 	(title_block
-		(title "BMS Slave 2027")
+		(title "Voltage Sense Leads and Cell Balancing")
 		(date "2026-07-13")
-		(rev "V1.01")
-		(company "BYU Racing")
-		(comment 1 "Designed by: Rugby Taylor, Carson Coleman, Nathan Christiansen")
+		(rev "V2.01")
+		(company "BYU Racing 2027")
+		(comment 1 "Designed by: Rugby Taylor, Nathan Christiansen, Harrison Kirkham")
+		(comment 2 "Last update by Rugby 11/9/2026")
 	)
 	(lib_symbols
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -475,6 +700,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:Q_PMOS_GSD"
 			(pin_names
 				(offset 0)
@@ -928,6 +1276,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LTC6811-1 Datasheet"
+		(exclude_from_sim no)
+		(at 31.75 27.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(href "https://www.analog.com/media/en/technical-documentation/data-sheets/LTC6811-1-6811-2.pdf")
+		)
+		(uuid "0357e676-28ed-42ee-a29f-e80900d0a7dc")
+	)
 	(text "VI+ setup shown on pg 92 of datasheet"
 		(exclude_from_sim no)
 		(at 243.586 43.434 0)
@@ -965,6 +1326,12 @@
 		(uuid "0c456057-543e-4798-9b55-357d971eafa0")
 	)
 	(junction
+		(at 125.73 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e5213a4-59e0-46ca-a730-7a1c34baab73")
+	)
+	(junction
 		(at 168.91 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -989,16 +1356,40 @@
 		(uuid "3475a2c4-a357-444b-8a9f-f100f21e0ef4")
 	)
 	(junction
+		(at 81.28 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42285112-24da-4356-8739-e848ce59adec")
+	)
+	(junction
 		(at 147.32 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4940d1d0-cd75-493d-90a8-6dd52403975a")
 	)
 	(junction
+		(at 99.06 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d4a11b3-8f03-4d72-8fa0-fdeddc85e291")
+	)
+	(junction
+		(at 99.06 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e3469c3-c298-40fc-a20d-f7cef583e38d")
+	)
+	(junction
 		(at 168.91 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5718817a-2318-4c1d-9ff4-331e64363c06")
+	)
+	(junction
+		(at 81.28 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5874da1f-571c-4f52-8708-72d5906fecea")
 	)
 	(junction
 		(at 168.91 72.39)
@@ -1017,6 +1408,30 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a552538-32c4-4ff5-aa58-44c78ca0af71")
+	)
+	(junction
+		(at 99.06 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cba010a-0d25-4e70-bbe0-e54205322255")
+	)
+	(junction
+		(at 81.28 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5df40338-376b-4c9c-8d2e-a05df37c0800")
+	)
+	(junction
+		(at 81.28 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61cddd8f-1267-4cc6-afe2-bb7df84d2626")
+	)
+	(junction
+		(at 99.06 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64be71ad-6df9-46a2-a107-166cf35a78b7")
 	)
 	(junction
 		(at 147.32 220.98)
@@ -1043,6 +1458,18 @@
 		(uuid "7c7729b0-038b-4074-acdf-ed0ab34ce9ff")
 	)
 	(junction
+		(at 99.06 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d847514-4a84-4542-a852-bac919960c12")
+	)
+	(junction
+		(at 81.28 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fbaa79b-f4d4-4961-bf6c-f3abf22b6595")
+	)
+	(junction
 		(at 147.32 254)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1067,10 +1494,28 @@
 		(uuid "91faef54-a0e9-4455-bda5-dd44c9cfb403")
 	)
 	(junction
+		(at 81.28 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "982fb231-42a3-4476-bcdc-304f4ab71e00")
+	)
+	(junction
 		(at 147.32 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98348bd1-9a22-4cd1-8778-b8477f9ac8fb")
+	)
+	(junction
+		(at 81.28 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9970f3a3-0abd-45e2-8903-6813e604abc5")
+	)
+	(junction
+		(at 99.06 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99853aef-0c01-4b61-a84e-ff76188a6b78")
 	)
 	(junction
 		(at 168.91 55.88)
@@ -1083,6 +1528,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aab12be4-9971-452b-b2e2-e565a2cb9a2a")
+	)
+	(junction
+		(at 99.06 254)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b877cd06-0a93-41b1-8d00-bd0c6d2f2698")
 	)
 	(junction
 		(at 168.91 204.47)
@@ -1103,10 +1554,52 @@
 		(uuid "c3e9db1d-f565-4223-905a-a5776179508a")
 	)
 	(junction
+		(at 81.28 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3fefdb2-0734-4106-8ef4-2c5089cc6438")
+	)
+	(junction
+		(at 81.28 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4aad81f-ef93-4699-9be7-9e8aea511de9")
+	)
+	(junction
+		(at 99.06 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6421614-5196-41cc-8008-ddc689285e5d")
+	)
+	(junction
+		(at 99.06 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c966b2af-785e-46fb-8464-8a057d238029")
+	)
+	(junction
+		(at 81.28 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9ac69fb-639a-4aa5-8719-965121ba466a")
+	)
+	(junction
+		(at 99.06 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df95afd1-e7b0-462d-8ff0-dc9d5ca0d61c")
+	)
+	(junction
 		(at 168.91 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e35bffc6-97ef-497c-abb4-cc60ac5845e9")
+	)
+	(junction
+		(at 81.28 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e50d2f7e-d185-4458-a5f1-05abc36b22fa")
 	)
 	(junction
 		(at 147.32 72.39)
@@ -1121,10 +1614,28 @@
 		(uuid "e6d81aaf-289e-4ed4-ad2f-4dcc55a2ce7a")
 	)
 	(junction
+		(at 99.06 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed2f25e4-3b24-4156-b11e-f0988e344a5a")
+	)
+	(junction
 		(at 168.91 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2d6595f-e0fb-4392-9ba8-90183206f106")
+	)
+	(junction
+		(at 99.06 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f57a4323-eb23-476a-9fc1-ab02c94f2b27")
+	)
+	(junction
+		(at 99.06 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7efb497-33f7-4562-bd36-8fb602949b94")
 	)
 	(wire
 		(pts
@@ -1158,13 +1669,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 55.88) (xy 119.38 55.88)
+			(xy 99.06 88.9) (xy 119.38 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "024943f5-12fb-41ce-976f-08b44231cb8f")
+		(uuid "0431c9ba-be0a-44d0-a1ad-bf81beab3569")
 	)
 	(wire
 		(pts
@@ -1178,6 +1689,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 82.55) (xy 81.28 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b311515-61fa-4e51-a561-92518cc2fb4c")
+	)
+	(wire
+		(pts
 			(xy 147.32 187.96) (xy 147.32 189.23)
 		)
 		(stroke
@@ -1185,16 +1706,6 @@
 			(type default)
 		)
 		(uuid "0ce1b84d-cfbd-4b06-a73f-6a7bda01d570")
-	)
-	(wire
-		(pts
-			(xy 113.03 154.94) (xy 120.65 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d30447b-bbcd-4b73-947c-058f31621657")
 	)
 	(wire
 		(pts
@@ -1215,6 +1726,16 @@
 			(type default)
 		)
 		(uuid "0f468045-b0cf-420e-a9e3-34e26161d83b")
+	)
+	(wire
+		(pts
+			(xy 124.46 55.88) (xy 125.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6786ec-e366-4177-8873-4accc5805c25")
 	)
 	(wire
 		(pts
@@ -1248,6 +1769,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 228.6) (xy 81.28 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1248072c-445c-4a90-a55c-763327853fda")
+	)
+	(wire
+		(pts
 			(xy 191.77 43.18) (xy 196.85 43.18)
 		)
 		(stroke
@@ -1268,13 +1799,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 72.39) (xy 119.38 72.39)
+			(xy 81.28 204.47) (xy 99.06 204.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "175452ab-933b-4a76-b141-bd99b62667d9")
+		(uuid "1813d21b-8140-4cc4-9bdd-33e03b430f66")
 	)
 	(wire
 		(pts
@@ -1308,6 +1839,26 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 254) (xy 120.65 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f963b2a-c552-40eb-ab34-d407f66265bb")
+	)
+	(wire
+		(pts
+			(xy 81.28 220.98) (xy 99.06 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205d8f8a-c9e4-4627-8a98-1ae82bb837ee")
+	)
+	(wire
+		(pts
 			(xy 168.91 248.92) (xy 196.85 248.92)
 		)
 		(stroke
@@ -1315,6 +1866,16 @@
 			(type default)
 		)
 		(uuid "21664327-db6d-44dd-a0ec-060dea24aeee")
+	)
+	(wire
+		(pts
+			(xy 81.28 121.92) (xy 99.06 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "222efcc7-d8e4-4d91-8a29-96d2bbf4104a")
 	)
 	(wire
 		(pts
@@ -1348,6 +1909,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 162.56) (xy 81.28 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c10f260-5e13-4a0a-a93d-221ac9fb35da")
+	)
+	(wire
+		(pts
 			(xy 168.91 93.98) (xy 168.91 105.41)
 		)
 		(stroke
@@ -1375,6 +1946,16 @@
 			(type default)
 		)
 		(uuid "30a5aedc-32ff-4d91-baf5-391aec565f44")
+	)
+	(wire
+		(pts
+			(xy 81.28 171.45) (xy 99.06 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3123fd9d-c5d7-4e6c-92dc-d261f6a928e6")
 	)
 	(wire
 		(pts
@@ -1468,6 +2049,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 220.98) (xy 120.65 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c9049c-449b-4079-9cf4-74e7ab754e17")
+	)
+	(wire
+		(pts
 			(xy 147.32 105.41) (xy 147.32 106.68)
 		)
 		(stroke
@@ -1485,16 +2076,6 @@
 			(type default)
 		)
 		(uuid "469c4a8e-526d-440f-874b-23e7d2ff4a12")
-	)
-	(wire
-		(pts
-			(xy 113.03 121.92) (xy 119.38 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "475b488c-dbf6-43ab-b1b3-e803443f4551")
 	)
 	(wire
 		(pts
@@ -1518,23 +2099,53 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 119.38 88.9)
+			(xy 81.28 254) (xy 99.06 254)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54478444-c920-416e-82f2-3bf7e9d6d125")
+		(uuid "4f1a8061-17db-48c3-b454-88bdc2d468d6")
 	)
 	(wire
 		(pts
-			(xy 113.03 138.43) (xy 120.65 138.43)
+			(xy 81.28 88.9) (xy 99.06 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55970c8f-e617-4cb6-a83c-cee31ce02fb6")
+		(uuid "50d64d52-240d-4c39-ad76-999555be3bc8")
+	)
+	(wire
+		(pts
+			(xy 99.06 138.43) (xy 120.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5235c45d-7e5a-4c16-a07c-8ddbbff5d0d8")
+	)
+	(wire
+		(pts
+			(xy 81.28 67.31) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54705ccf-31de-4096-ab99-cb2ba5fed88c")
+	)
+	(wire
+		(pts
+			(xy 99.06 171.45) (xy 120.65 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54eefc9b-3eb0-4d2e-974d-8aef9eb5d1d3")
 	)
 	(wire
 		(pts
@@ -1588,6 +2199,36 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 105.41) (xy 119.38 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629968f5-5c15-4244-8d9a-d4c34508874d")
+	)
+	(wire
+		(pts
+			(xy 125.73 55.88) (xy 147.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ec76a7-8072-4d41-b382-80437d99bb4e")
+	)
+	(wire
+		(pts
+			(xy 99.06 237.49) (xy 120.65 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6326a923-f2f3-4fcf-9384-18daada1a145")
+	)
+	(wire
+		(pts
 			(xy 147.32 55.88) (xy 147.32 57.15)
 		)
 		(stroke
@@ -1615,16 +2256,6 @@
 			(type default)
 		)
 		(uuid "66ff2177-827a-4939-9da7-745c912b9e5a")
-	)
-	(wire
-		(pts
-			(xy 113.03 220.98) (xy 120.65 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ad26606-2f18-437f-8f02-a0e0929b47e4")
 	)
 	(wire
 		(pts
@@ -1678,6 +2309,26 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 245.11) (xy 81.28 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7607a07f-41b4-4a5a-8d6f-c7fe1edb97bb")
+	)
+	(wire
+		(pts
+			(xy 99.06 55.88) (xy 119.38 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "761a223e-6b28-48ff-905b-e4ec7d55f7a2")
+	)
+	(wire
+		(pts
 			(xy 147.32 254) (xy 156.21 254)
 		)
 		(stroke
@@ -1695,6 +2346,16 @@
 			(type default)
 		)
 		(uuid "7763cb3f-d307-4533-b889-28f84f9e08b1")
+	)
+	(wire
+		(pts
+			(xy 81.28 129.54) (xy 81.28 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd599e0-51b8-4f8f-b052-df17fae91a64")
 	)
 	(wire
 		(pts
@@ -1728,13 +2389,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 254) (xy 120.65 254)
+			(xy 81.28 154.94) (xy 99.06 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80048aff-12f1-461b-a198-2a13c713bd6a")
+		(uuid "80fe238b-a228-4660-935f-173a5e9cf1f7")
+	)
+	(wire
+		(pts
+			(xy 81.28 187.96) (xy 99.06 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8212b141-c050-423d-aa06-4edeab187212")
 	)
 	(wire
 		(pts
@@ -1758,6 +2429,36 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 72.39) (xy 99.06 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "889f46bb-7feb-45b9-ae79-7473c1aa49ee")
+	)
+	(wire
+		(pts
+			(xy 81.28 113.03) (xy 81.28 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a489830-a6a6-4476-a7ab-104e4263f7ba")
+	)
+	(wire
+		(pts
+			(xy 81.28 146.05) (xy 81.28 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d218e7a-b608-4a6e-bd38-0a778cece579")
+	)
+	(wire
+		(pts
 			(xy 154.94 62.23) (xy 177.8 62.23)
 		)
 		(stroke
@@ -1765,6 +2466,16 @@
 			(type default)
 		)
 		(uuid "8df08fe9-b5a1-44d8-bee3-01216d91736c")
+	)
+	(wire
+		(pts
+			(xy 81.28 55.88) (xy 99.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6317f4-e4c4-49a7-bf3a-b05bf0cd3369")
 	)
 	(wire
 		(pts
@@ -1785,6 +2496,26 @@
 			(type default)
 		)
 		(uuid "8f7be6fa-5d35-4626-91dd-21f01012bf22")
+	)
+	(wire
+		(pts
+			(xy 99.06 204.47) (xy 120.65 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9031475d-a84a-4e50-ac30-cf7b36371580")
+	)
+	(wire
+		(pts
+			(xy 127 49.53) (xy 125.73 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90927fe6-ac80-4c8a-99bb-d6cf3dcc7532")
 	)
 	(wire
 		(pts
@@ -1828,6 +2559,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 55.88) (xy 81.28 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d82815-a5ef-491d-917c-2f28e8d88c87")
+	)
+	(wire
+		(pts
 			(xy 156.21 248.92) (xy 168.91 248.92)
 		)
 		(stroke
@@ -1845,16 +2586,6 @@
 			(type default)
 		)
 		(uuid "9a45ed9a-5d5b-4a78-8e85-b324011dca21")
-	)
-	(wire
-		(pts
-			(xy 113.03 237.49) (xy 120.65 237.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bb7393a-2034-4389-b5e8-a9e42a1d6c43")
 	)
 	(wire
 		(pts
@@ -1888,13 +2619,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 187.96) (xy 120.65 187.96)
+			(xy 125.73 49.53) (xy 125.73 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1381328-20f9-42e1-a81d-4a03ff080663")
+		(uuid "9f5fd91c-885a-424f-ac07-ccc1e9ceca0e")
+	)
+	(wire
+		(pts
+			(xy 99.06 72.39) (xy 119.38 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f834844-ba36-4ed7-a284-64c0556cdf2d")
 	)
 	(wire
 		(pts
@@ -1905,16 +2646,6 @@
 			(type default)
 		)
 		(uuid "a166db11-1104-4103-9001-46714433c45d")
-	)
-	(wire
-		(pts
-			(xy 124.46 55.88) (xy 147.32 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5246bcc-b2fe-421f-b91a-b35668cec801")
 	)
 	(wire
 		(pts
@@ -1958,16 +2689,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 105.41) (xy 119.38 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad203a38-cd41-48aa-9c9a-1334a7ae3e4a")
-	)
-	(wire
-		(pts
 			(xy 160.02 43.18) (xy 191.77 43.18)
 		)
 		(stroke
@@ -1975,6 +2696,16 @@
 			(type default)
 		)
 		(uuid "afb9fde2-f421-491b-8b3f-7692a1e3a1cd")
+	)
+	(wire
+		(pts
+			(xy 81.28 105.41) (xy 99.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff1d742-1bc9-4977-aa01-73760c1490b6")
 	)
 	(wire
 		(pts
@@ -2015,6 +2746,16 @@
 			(type default)
 		)
 		(uuid "b8ed4177-4437-4f95-abe3-2b8e55994369")
+	)
+	(wire
+		(pts
+			(xy 99.06 154.94) (xy 120.65 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb146fa9-69a9-4fa6-8ecf-8cd5e9bcded3")
 	)
 	(wire
 		(pts
@@ -2088,6 +2829,26 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 195.58) (xy 81.28 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c818d065-7c37-4cc6-941d-2a6d1df6a862")
+	)
+	(wire
+		(pts
+			(xy 81.28 237.49) (xy 99.06 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc26c65d-901a-4481-b286-254cbd284bc3")
+	)
+	(wire
+		(pts
 			(xy 154.94 128.27) (xy 177.8 128.27)
 		)
 		(stroke
@@ -2095,6 +2856,16 @@
 			(type default)
 		)
 		(uuid "cff6c98a-f978-498a-9d0e-1b997c1cabad")
+	)
+	(wire
+		(pts
+			(xy 99.06 121.92) (xy 119.38 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03622ea-491a-4f0b-9512-8a156b76c313")
 	)
 	(wire
 		(pts
@@ -2118,13 +2889,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 204.47) (xy 120.65 204.47)
+			(xy 81.28 179.07) (xy 81.28 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d60bd2f5-e86e-46ba-8079-b8d32f366ac9")
+		(uuid "da156ab7-5999-405b-957c-713ae2f57298")
+	)
+	(wire
+		(pts
+			(xy 99.06 187.96) (xy 120.65 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd4fc8c5-c033-4a94-b4d2-9dda25a69bc0")
 	)
 	(wire
 		(pts
@@ -2168,6 +2949,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 212.09) (xy 81.28 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c49579-1bd0-4302-8f1e-a53d2d508afb")
+	)
+	(wire
+		(pts
 			(xy 182.88 144.78) (xy 196.85 144.78)
 		)
 		(stroke
@@ -2185,6 +2976,16 @@
 			(type default)
 		)
 		(uuid "e9a71ce3-ca92-4639-8dac-4e7440cad6f1")
+	)
+	(wire
+		(pts
+			(xy 81.28 96.52) (xy 81.28 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec6ed30e-bed0-42b2-9cee-c6aa2d74c82f")
 	)
 	(wire
 		(pts
@@ -2228,16 +3029,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 171.45) (xy 120.65 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f20cd105-4612-40ba-95df-8c13459bc574")
-	)
-	(wire
-		(pts
 			(xy 147.32 220.98) (xy 147.32 222.25)
 		)
 		(stroke
@@ -2265,6 +3056,16 @@
 			(type default)
 		)
 		(uuid "f3731f96-c44a-4daa-810e-382e4099f3bc")
+	)
+	(wire
+		(pts
+			(xy 81.28 138.43) (xy 99.06 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6170100-bb5b-4ee9-9e73-bb66a35e05db")
 	)
 	(wire
 		(pts
@@ -2308,6 +3109,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 72.39) (xy 81.28 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce81cd2-40e6-4e1a-97e4-09c4626f4a8d")
+	)
+	(wire
+		(pts
 			(xy 182.88 128.27) (xy 196.85 128.27)
 		)
 		(stroke
@@ -2315,6 +3126,136 @@
 			(type default)
 		)
 		(uuid "fda7fb4d-9d9b-49b3-a51c-bce35fba0552")
+	)
+	(label "VBUS4"
+		(at 82.55 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "16e94a7e-da75-44f4-95d5-6ee05af292f0")
+	)
+	(label "VBUS_GNDREF"
+		(at 82.55 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d634ece-caa2-4060-9ed2-eef17e10c979")
+	)
+	(label "VBUS5"
+		(at 82.55 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21215925-4932-410c-98b3-bdcb04cf4e97")
+	)
+	(label "VBUS8"
+		(at 82.55 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fdcd628-ea57-4946-8f6f-a3c10f0f3cc8")
+	)
+	(label "VBUS2"
+		(at 82.55 220.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47f699c4-f657-4563-9e55-6e67dadc9c5a")
+	)
+	(label "VBUS11"
+		(at 82.55 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "558332b5-9588-451f-aa09-236157910a9c")
+	)
+	(label "VBUS10"
+		(at 82.55 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83fdacf6-3a98-47ab-8134-490fab43a52d")
+	)
+	(label "VBUS1"
+		(at 82.55 237.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d029ae3-5580-4f9e-88e4-6f2ac4e11e87")
+	)
+	(label "VBUS9"
+		(at 82.55 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac5c801c-e63a-44f6-9e92-4b3156e763cf")
+	)
+	(label "VBUS6"
+		(at 82.55 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c03e5a74-575c-4eae-b1a2-981a4a82b8c3")
+	)
+	(label "VBUS12"
+		(at 82.55 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9fca59b-e92a-4012-9227-4c5670858b16")
+	)
+	(label "VBUS7"
+		(at 82.55 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0d25eac-c0ab-456b-9d2f-3ff418bc7dd1")
+	)
+	(label "VBUS3"
+		(at 82.55 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdca16df-6925-41b9-a100-82bc7404c576")
 	)
 	(hierarchical_label "C6"
 		(shape output)
@@ -2382,17 +3323,6 @@
 		)
 		(uuid "140258ca-1d98-47d9-ba49-576f987094bb")
 	)
-	(hierarchical_label "BT2"
-		(shape input)
-		(at 113.03 220.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1a7021f5-e0be-45de-ab31-59a9a4fc4d00")
-	)
 	(hierarchical_label "S11"
 		(shape output)
 		(at 196.85 78.74 0)
@@ -2437,17 +3367,6 @@
 		)
 		(uuid "294a0398-547a-43a3-9fb7-68c03171d010")
 	)
-	(hierarchical_label "BT7"
-		(shape input)
-		(at 113.03 138.43 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2be6dc52-ddb5-486d-84fa-c6d0e83b5711")
-	)
 	(hierarchical_label "VI+"
 		(shape output)
 		(at 196.85 43.18 0)
@@ -2458,39 +3377,6 @@
 			(justify left)
 		)
 		(uuid "3280d094-3da9-4c13-b873-92948ee116e2")
-	)
-	(hierarchical_label "BT1"
-		(shape input)
-		(at 113.03 237.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "415b1089-4d5a-454d-a76e-d2615adc07f8")
-	)
-	(hierarchical_label "BT3"
-		(shape input)
-		(at 113.03 204.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "516955df-f3a1-4c87-89f5-4d5660282e3c")
-	)
-	(hierarchical_label "BT4"
-		(shape input)
-		(at 113.03 187.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "590c8d31-e722-4bb3-a079-7a577fb9344b")
 	)
 	(hierarchical_label "C1"
 		(shape output)
@@ -2513,28 +3399,6 @@
 			(justify left)
 		)
 		(uuid "5f423217-679d-4290-b3a0-f17794952e17")
-	)
-	(hierarchical_label "GND_REF_INPUT"
-		(shape input)
-		(at 113.03 254 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "638fb78c-2846-42c2-ae41-8cff9ae34814")
-	)
-	(hierarchical_label "BT12"
-		(shape input)
-		(at 113.03 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6948fbef-513d-4b0b-869d-719721111dfc")
 	)
 	(hierarchical_label "C10"
 		(shape output)
@@ -2602,28 +3466,6 @@
 		)
 		(uuid "86885dbc-c2ce-4efa-9e36-51c424b2d493")
 	)
-	(hierarchical_label "BT5"
-		(shape input)
-		(at 113.03 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "92800547-d744-4c82-a461-2e42d9897026")
-	)
-	(hierarchical_label "BT10"
-		(shape input)
-		(at 113.03 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "96b1afce-abfd-4fba-9e44-3320d7a62fb7")
-	)
 	(hierarchical_label "S6"
 		(shape output)
 		(at 196.85 161.29 0)
@@ -2646,28 +3488,6 @@
 		)
 		(uuid "a839bc59-7f66-44df-be84-a50cd0ae1b92")
 	)
-	(hierarchical_label "BT9"
-		(shape input)
-		(at 113.03 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "abea1f1d-3adc-4da3-b8b1-cdd6778fa4df")
-	)
-	(hierarchical_label "BT6"
-		(shape input)
-		(at 113.03 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b0cd7f0f-0503-456a-9a3a-a8c714cfd3d6")
-	)
 	(hierarchical_label "S2"
 		(shape output)
 		(at 196.85 227.33 0)
@@ -2681,7 +3501,7 @@
 	)
 	(hierarchical_label "V_full_stack_fused"
 		(shape input)
-		(at 134.62 55.88 90)
+		(at 127 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2712,17 +3532,6 @@
 		)
 		(uuid "cbb819c6-1d78-4a7c-b262-98c16d7050a8")
 	)
-	(hierarchical_label "BT11"
-		(shape input)
-		(at 113.03 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d84a7b3f-e312-45ff-989f-3d39320bb328")
-	)
 	(hierarchical_label "C2"
 		(shape output)
 		(at 196.85 220.98 0)
@@ -2733,17 +3542,6 @@
 			(justify left)
 		)
 		(uuid "e69b761c-db9a-4062-9b73-fc5e1c8e8b90")
-	)
-	(hierarchical_label "BT8"
-		(shape input)
-		(at 113.03 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f7dbcad7-3a85-4816-aa9a-873d2095d670")
 	)
 	(hierarchical_label "C9"
 		(shape output)
@@ -2830,9 +3628,125 @@
 			(uuid "c6c18469-7101-4989-9546-15c883456b78")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 81.28 209.55 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00a78b44-b08a-42df-99aa-5c8a66f02a3f")
+		(property "Reference" "BT3"
+			(at 77.47 206.4384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 77.47 208.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 208.026 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 208.026 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 81.28 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 81.28 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 81.28 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 81.28 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "06390a9f-1e2f-4d3b-ad21-349420b85d37")
+		)
+		(pin "1"
+			(uuid "52f2d659-bfab-42b4-bb22-20270ee56ab5")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "BT3")
 					(unit 1)
 				)
 			)
@@ -2872,7 +3786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 147.32 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -2912,7 +3826,7 @@
 			(uuid "70e770e1-8268-41de-8ef1-55de7bb16ff7")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R9")
 					(unit 1)
@@ -2931,7 +3845,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "085e4bb5-c58a-4fe3-8c5a-91d2918d87d9")
-		(property "Reference" "Q9"
+		(property "Reference" "Q4"
 			(at 143.51 193.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2996,9 +3910,169 @@
 			(uuid "823a29e6-0d16-4c06-adf8-c284b4efd91a")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "Q9")
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c0a3d3b-e48e-43a8-b4d7-1c02a45b6cfd")
+		(property "Reference" "H9"
+			(at 101.6 102.8701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Old Voltage Tap"
+			(at 101.6 100.3301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+			(at 99.06 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2ae9d0b7-20d5-4fcc-b9b5-1851f14d55a7")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 185.42 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d234e31-9690-4f66-a42c-0d2950fe1e49")
+		(property "Reference" "H4"
+			(at 101.6 185.4201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Old Voltage Tap"
+			(at 101.6 182.8801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+			(at 99.06 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5168d65b-b5c0-4ab8-ab85-297683a0f274")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -3038,7 +4112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 147.32 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -3078,7 +4152,7 @@
 			(uuid "05a6374e-b55f-4ce5-ad77-6623bcb53d3c")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R6")
 					(unit 1)
@@ -3098,7 +4172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "129f0507-0c19-4363-9f18-48a463b25e9c")
-		(property "Reference" "F3"
+		(property "Reference" "F10"
 			(at 121.92 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3158,9 +4232,9 @@
 			(uuid "93d5d3e2-f884-4ac1-8f80-b5e41b183803")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "F3")
+					(reference "F10")
 					(unit 1)
 				)
 			)
@@ -3178,7 +4252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13eb6c94-110a-4462-849e-9784ffedbae2")
-		(property "Reference" "F6"
+		(property "Reference" "F7"
 			(at 123.19 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3238,9 +4312,9 @@
 			(uuid "1bccba08-2c9e-404c-a0b3-215e8e6627b7")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "F6")
+					(reference "F7")
 					(unit 1)
 				)
 			)
@@ -3317,7 +4391,7 @@
 			(uuid "6da0ee44-8f6c-4c49-9c69-95bcdf9c1bb9")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R34")
 					(unit 1)
@@ -3336,7 +4410,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "156a16cf-ebd1-4ba0-912d-68546566ca38")
-		(property "Reference" "Q2"
+		(property "Reference" "Q11"
 			(at 143.51 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3401,9 +4475,9 @@
 			(uuid "aea4e284-e7b9-4f1f-9dc1-6d4203135bb4")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "Q2")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -3420,7 +4494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15eadca9-17bb-41ef-8f9c-a1376853dda3")
-		(property "Reference" "Q3"
+		(property "Reference" "Q10"
 			(at 143.51 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,9 +4559,9 @@
 			(uuid "5e54bfd7-3992-40b9-9d9a-f2f72875bf43")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "Q3")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -3567,7 +4641,7 @@
 			(uuid "2caffdf3-a200-4928-bd25-64394caf7d47")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C3")
 					(unit 1)
@@ -3609,7 +4683,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 147.32 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3649,7 +4723,7 @@
 			(uuid "b6018d40-14d7-4e5b-bdf0-8a4c94a505cd")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R4")
 					(unit 1)
@@ -3728,7 +4802,7 @@
 			(uuid "65e92a56-55e7-4640-8b02-23629cc6a3d1")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R26")
 					(unit 1)
@@ -3810,7 +4884,7 @@
 			(uuid "a0f473eb-3c70-405b-9c29-93927b7c3a7d")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C2")
 					(unit 1)
@@ -3889,7 +4963,7 @@
 			(uuid "f8d0f764-6a91-4de4-8f17-da3117aeceae")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R20")
 					(unit 1)
@@ -3909,7 +4983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a1ba29a-d5dd-4260-afff-4072e38580ae")
-		(property "Reference" "F8"
+		(property "Reference" "F5"
 			(at 123.19 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3969,9 +5043,125 @@
 			(uuid "96c7894c-594b-4ffc-bf93-2bce6c1b0231")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "F8")
+					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 81.28 193.04 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ad834ad-7474-4de8-926b-f3c502d03e71")
+		(property "Reference" "BT4"
+			(at 77.47 189.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 77.47 192.4684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 191.516 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 191.516 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 81.28 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 81.28 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 81.28 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 81.28 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9d2bd3ba-d530-4935-856c-0630f0212060")
+		)
+		(pin "1"
+			(uuid "84dfef03-a67a-4ebc-b320-8bdca3134e24")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "BT4")
 					(unit 1)
 				)
 			)
@@ -4048,9 +5238,89 @@
 			(uuid "00800b00-49f1-4311-a926-bf81776f854f")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 218.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ad74209-be52-4d5e-af01-b58a94531bb1")
+		(property "Reference" "H2"
+			(at 101.6 218.4401 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Old Voltage Tap"
+			(at 101.6 215.9001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+			(at 99.06 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f29b94c1-57bd-4212-96f2-725232d7e4a2")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -4090,7 +5360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 147.32 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -4130,9 +5400,89 @@
 			(uuid "c90e063b-3814-4e71-a01a-65cc522cbb2c")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 201.93 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dd328fc-acc4-42cd-bf55-bf5ddc2b77a6")
+		(property "Reference" "H3"
+			(at 101.6 201.9301 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Old Voltage Tap"
+			(at 101.6 199.3901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+			(at 99.06 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a69d3626-3ffd-4ad8-a61d-35b591a048e8")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4209,7 +5559,7 @@
 			(uuid "4c5743f6-7a72-4e7d-b3c8-3f9090ed89df")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R36")
 					(unit 1)
@@ -4251,7 +5601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 147.32 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4291,7 +5641,7 @@
 			(uuid "c9b3245f-03ea-45e4-96c3-5caa8658c088")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R3")
 					(unit 1)
@@ -4311,7 +5661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30805830-1d27-4737-9a9b-e82c7b91fd44")
-		(property "Reference" "F10"
+		(property "Reference" "F3"
 			(at 123.19 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4371,9 +5721,89 @@
 			(uuid "9af54480-2c3c-41e1-9b5b-ef8f47b65dfb")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "F10")
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 168.91 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34f38e6e-a440-42e5-a3c1-871294740496")
+		(property "Reference" "H5"
+			(at 101.6 168.9101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Old Voltage Tap"
+			(at 101.6 166.3701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+			(at 99.06 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04e5b5ae-0a54-453f-99b0-f21ef2b09d9f")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -4453,7 +5883,7 @@
 			(uuid "c4a12eff-7fd6-4c33-adef-f2a96c2bf672")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C7")
 					(unit 1)
@@ -4531,7 +5961,7 @@
 			(uuid "bd26dfff-c134-4859-9bd5-efa7d91ef672")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "#PWR04")
 					(unit 1)
@@ -4613,7 +6043,7 @@
 			(uuid "44db12ab-1468-47a4-a3fe-12aba9da06c7")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C11")
 					(unit 1)
@@ -4692,9 +6122,125 @@
 			(uuid "76680725-e02c-411b-870f-ba7d84a8046b")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 81.28 176.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3de3d484-a1fe-463e-97f6-a9f7f1545a15")
+		(property "Reference" "BT5"
+			(at 77.47 173.4184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 77.47 175.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 175.006 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 175.006 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 81.28 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 81.28 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 81.28 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 81.28 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "55beab8f-0f44-42c0-8175-671377fdc29f")
+		)
+		(pin "1"
+			(uuid "c8cdc5f6-3fba-41fb-a8df-2acfedc7c443")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "BT5")
 					(unit 1)
 				)
 			)
@@ -4774,9 +6320,89 @@
 			(uuid "4059e407-5722-45e2-9479-3e4266577296")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 69.85 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44ada57c-4607-4a2a-b334-4a0b2556ec22")
+		(property "Reference" "H11"
+			(at 101.6 69.8501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Old Voltage Tap"
+			(at 101.6 67.3101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+			(at 99.06 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e4ce414-7d43-4ae7-9d47-e2fd732bc07d")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -4793,7 +6419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45014bc3-7fd9-491a-a621-2f03503283b9")
-		(property "Reference" "Q1"
+		(property "Reference" "Q12"
 			(at 143.51 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4858,9 +6484,9 @@
 			(uuid "d375c828-de2d-456f-9eaa-7117da5fda38")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "Q1")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -4937,7 +6563,7 @@
 			(uuid "697e2bc8-6281-4d6e-bdc7-924eb62f9f83")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R23")
 					(unit 1)
@@ -4956,7 +6582,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "501e600b-3261-4c5f-9b37-c4d8fffff4ae")
-		(property "Reference" "Q8"
+		(property "Reference" "Q5"
 			(at 143.51 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5021,9 +6647,9 @@
 			(uuid "64a59f57-f4ac-46cd-b31f-6de7551aa37e")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "Q8")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -5041,7 +6667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "512cecdd-faf2-4763-b96f-a66cef79b0fa")
-		(property "Reference" "F2"
+		(property "Reference" "F11"
 			(at 121.92 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5101,9 +6727,9 @@
 			(uuid "9e5ae367-96df-4df4-bba2-965669424c76")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "F2")
+					(reference "F11")
 					(unit 1)
 				)
 			)
@@ -5121,7 +6747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "557130c9-9a50-4dfc-b9a6-a74f889aebfb")
-		(property "Reference" "F1"
+		(property "Reference" "F12"
 			(at 121.92 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5181,9 +6807,9 @@
 			(uuid "eba6af04-c536-4acd-a941-5799df046100")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "F1")
+					(reference "F12")
 					(unit 1)
 				)
 			)
@@ -5263,7 +6889,7 @@
 			(uuid "e45f19cf-f22b-4c9f-8858-ad42a37e043a")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C8")
 					(unit 1)
@@ -5345,7 +6971,7 @@
 			(uuid "909a0137-f402-40a3-a701-efed573abfe3")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C6")
 					(unit 1)
@@ -5364,7 +6990,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d49d3d6-dfda-4da9-939e-81ffd7854616")
-		(property "Reference" "Q4"
+		(property "Reference" "Q9"
 			(at 143.51 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5429,9 +7055,9 @@
 			(uuid "df5025ad-044b-4775-9f1e-0a07acfe0e6a")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "Q4")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -5471,7 +7097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 147.32 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -5511,7 +7137,7 @@
 			(uuid "7696f5b3-1da6-4bf0-82f6-3c6612197ee3")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R7")
 					(unit 1)
@@ -5590,9 +7216,125 @@
 			(uuid "1cd75772-e213-4d6a-bf00-d5d2fdf2fece")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 81.28 127 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f6907c9-cd23-4014-b67f-a873e3818949")
+		(property "Reference" "BT8"
+			(at 77.47 123.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 77.47 126.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 125.476 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 125.476 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 81.28 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 81.28 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 81.28 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 81.28 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bd3fcdd9-22e8-4ca8-90e7-19c26148f0d4")
+		)
+		(pin "1"
+			(uuid "5fae68a4-08bc-474c-b104-1b45d62dcfe1")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "BT8")
 					(unit 1)
 				)
 			)
@@ -5672,7 +7414,7 @@
 			(uuid "34e9b45a-367d-4938-aa31-3f83ef28c756")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C5")
 					(unit 1)
@@ -5692,7 +7434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75129f22-9f39-4c22-b570-c5b6cd09bca2")
-		(property "Reference" "F9"
+		(property "Reference" "F4"
 			(at 123.19 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5752,9 +7494,9 @@
 			(uuid "ec62ad1f-7ec8-4276-9a87-09c7ca81a51d")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "F9")
+					(reference "F4")
 					(unit 1)
 				)
 			)
@@ -5794,7 +7536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 147.32 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -5834,9 +7576,89 @@
 			(uuid "999de12b-7091-4140-bd3c-89dc9ee0383a")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 86.36 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d580e11-8706-42d2-a7f6-812111af7249")
+		(property "Reference" "H10"
+			(at 101.6 86.3601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Old Voltage Tap"
+			(at 101.6 83.8201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+			(at 99.06 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce1ca5f7-5435-4784-a82e-07b8656e3ca6")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -5876,7 +7698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 147.32 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -5916,7 +7738,7 @@
 			(uuid "0fb39bfa-aeda-44fe-8c8b-8f44c422e7c3")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R5")
 					(unit 1)
@@ -5958,7 +7780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 147.32 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5998,9 +7820,88 @@
 			(uuid "e448885f-7d36-4899-bee1-3644bdba22b0")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 251.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84fe3a88-23a2-4f35-8370-606e4cf9fe12")
+		(property "Reference" "H0"
+			(at 101.6 248.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Old Voltage Tap"
+			(at 101.6 251.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+			(at 99.06 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf76fc38-aa0c-4cc5-af33-b602926c777e")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "H0")
 					(unit 1)
 				)
 			)
@@ -6077,7 +7978,7 @@
 			(uuid "5abab5c1-d267-46e5-bd9a-1039842eb7e5")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R22")
 					(unit 1)
@@ -6096,7 +7997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88d9fb69-197b-4e98-a9fe-6cde61f3a81f")
-		(property "Reference" "Q10"
+		(property "Reference" "Q3"
 			(at 143.51 209.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6161,9 +8062,9 @@
 			(uuid "7ddfdb41-7b15-430e-98ed-7d16cf5c38ec")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "Q10")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6181,7 +8082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "897486c2-8fe3-42b9-b3e3-0b441243027d")
-		(property "Reference" "F7"
+		(property "Reference" "F6"
 			(at 123.19 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6241,9 +8142,9 @@
 			(uuid "1047c55b-c28c-4f8c-a53e-2c7264e128c2")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "F7")
+					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -6320,7 +8221,7 @@
 			(uuid "98aa6a47-1e73-44af-91c4-64f7611f2e61")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R25")
 					(unit 1)
@@ -6399,7 +8300,7 @@
 			(uuid "4efa7784-b192-4007-9b80-301b7c63a7c9")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R28")
 					(unit 1)
@@ -6418,7 +8319,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e7ba105-831b-4b2c-b778-94986097459e")
-		(property "Reference" "Q6"
+		(property "Reference" "Q7"
 			(at 143.51 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6483,9 +8384,125 @@
 			(uuid "e78c370e-460f-407f-a05d-a4d881626e35")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "Q6")
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 81.28 226.06 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "926dd203-6ef3-4783-b9fc-604709c9792b")
+		(property "Reference" "BT2"
+			(at 77.47 222.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 77.47 225.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 224.536 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 224.536 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 81.28 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 81.28 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 81.28 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 81.28 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7bad7a10-1323-4cb7-a151-8fee530b22f0")
+		)
+		(pin "1"
+			(uuid "94cacc26-6cab-4426-939b-0f9d7d70bbbb")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -6562,7 +8579,7 @@
 			(uuid "ec631a81-f7ea-4dc6-baac-f891f13274c7")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R15")
 					(unit 1)
@@ -6581,7 +8598,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9445aa3a-e795-4c5c-8dc9-4d3d1b01ab3f")
-		(property "Reference" "Q7"
+		(property "Reference" "Q6"
 			(at 143.51 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6646,9 +8663,9 @@
 			(uuid "430341d2-2837-49e5-aeee-afae008d152d")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "Q7")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -6688,7 +8705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 147.32 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -6728,7 +8745,7 @@
 			(uuid "ddad5324-17ad-4f7c-bf90-4690838642f8")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R12")
 					(unit 1)
@@ -6807,7 +8824,7 @@
 			(uuid "9325853e-a9a4-4893-bc4f-4a5b58185a62")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R19")
 					(unit 1)
@@ -6826,7 +8843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "988da1b5-258b-4e58-ac95-57c5c4c943c4")
-		(property "Reference" "Q12"
+		(property "Reference" "Q1"
 			(at 143.51 242.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6891,9 +8908,321 @@
 			(uuid "a1bb454e-55a7-48cd-94d1-cb7cc7af1827")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "Q12")
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 81.28 80.01 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9abbf82c-b7f5-459d-a8c9-e089e5b54ce1")
+		(property "Reference" "BT11"
+			(at 77.47 76.8984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 77.47 79.4384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 78.486 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 78.486 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 81.28 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 81.28 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 81.28 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 81.28 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "376858de-3f83-475e-92c4-2a6da3e531e7")
+		)
+		(pin "1"
+			(uuid "4f69c50c-de20-47ec-b691-6c58758d5b73")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "BT11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 53.34 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c2121bf-0d56-4523-a492-3b4658960a6f")
+		(property "Reference" "H12"
+			(at 101.6 53.3401 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Old Voltage Tap"
+			(at 101.6 50.8001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+			(at 99.06 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5577a936-860c-431e-b1b9-4f076a26d2e5")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 81.28 93.98 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c3b866f-91a0-4347-9556-5c4657539f90")
+		(property "Reference" "BT10"
+			(at 77.47 90.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 77.47 93.4084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 92.456 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 92.456 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 81.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 81.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 81.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 81.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20aca12d-6f34-4bce-ab67-a2662cfa37ef")
+		)
+		(pin "1"
+			(uuid "660a869c-f538-4ee6-be3f-8d6a3a88dfa6")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "BT10")
 					(unit 1)
 				)
 			)
@@ -6970,9 +9299,284 @@
 			(uuid "12b2e3ed-3ca2-406f-bf61-3a7d6bf7fec6")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 81.28 242.57 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a35478af-a353-4f62-9d00-cd9ad4c2b56d")
+		(property "Reference" "BT1"
+			(at 77.47 239.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 77.47 241.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 241.046 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 241.046 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 81.28 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 81.28 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 81.28 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 81.28 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "28bbd65b-8fc1-48cc-ae51-3bb4f7899ec3")
+		)
+		(pin "1"
+			(uuid "7fc70bc6-73c9-4a1c-b6cb-459149a6ca67")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 135.89 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7c2076c-0409-4097-8ce2-49ea28b6c41c")
+		(property "Reference" "H7"
+			(at 101.6 135.8901 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Old Voltage Tap"
+			(at 101.6 133.3501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+			(at 99.06 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e134a58-d0a4-49e9-99be-b5227f159fa4")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 119.38 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa8d05ed-51c1-4e7c-843b-7d9ce76817c2")
+		(property "Reference" "H8"
+			(at 101.6 119.3801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Old Voltage Tap"
+			(at 101.6 116.8401 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "148edc07-cde2-47f4-a702-bcd1dfbde37d")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -7052,7 +9656,7 @@
 			(uuid "96086442-b03d-49f6-86b1-8580ed054b0d")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C12")
 					(unit 1)
@@ -7131,7 +9735,7 @@
 			(uuid "1ac5d440-3c62-40cf-b0f2-6a6578c4592b")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R14")
 					(unit 1)
@@ -7173,7 +9777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 147.32 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -7213,7 +9817,7 @@
 			(uuid "1613b7fc-8bbb-4f2c-b98e-76d732092a56")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R10")
 					(unit 1)
@@ -7295,9 +9899,125 @@
 			(uuid "3d0b0f67-93c8-4874-83f3-5494ffbbad72")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 81.28 64.77 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b92d0148-d162-401d-a98b-fb5a20976077")
+		(property "Reference" "BT12"
+			(at 77.47 61.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 77.47 64.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 63.246 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 63.246 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 81.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 81.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 81.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 81.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a6fdd722-bd3a-48a5-a007-113bd1bfacc4")
+		)
+		(pin "1"
+			(uuid "cf1cac12-df54-4dca-a627-3709f68f3d57")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "BT12")
 					(unit 1)
 				)
 			)
@@ -7377,7 +10097,7 @@
 			(uuid "ac0a93f8-666c-4220-ad49-a0b599ec765c")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C13")
 					(unit 1)
@@ -7456,7 +10176,7 @@
 			(uuid "87efccfd-6646-43b4-abd7-d5a88626fec1")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R17")
 					(unit 1)
@@ -7476,7 +10196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6ae5212-9796-47fc-9961-5f3eb121e1af")
-		(property "Reference" "F12"
+		(property "Reference" "F1"
 			(at 123.19 232.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7536,9 +10256,9 @@
 			(uuid "26be546d-6b90-4b6d-b677-5aa171231291")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "F12")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -7615,9 +10335,125 @@
 			(uuid "2deb5042-8de4-430c-af8b-ac001abfbeb1")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 81.28 143.51 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7e2650e-1603-4a1f-8bc0-5a0ffdeaee29")
+		(property "Reference" "BT7"
+			(at 77.47 140.3984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 77.47 142.9384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 141.986 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 141.986 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 81.28 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 81.28 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 81.28 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 81.28 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "be5063ae-b565-4315-95fc-101dad4dd59f")
+		)
+		(pin "1"
+			(uuid "466690a5-986c-452d-b561-c48116169b08")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "BT7")
 					(unit 1)
 				)
 			)
@@ -7694,9 +10530,88 @@
 			(uuid "41bd4251-f76d-41a6-9548-a40eba5e4bc1")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 234.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc81a8cc-af41-4ea7-809d-f6a49ed4c736")
+		(property "Reference" "H1"
+			(at 101.6 232.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Old Voltage Tap"
+			(at 101.6 234.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+			(at 99.06 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e2306bc-a906-4d95-8d31-a677a781baba")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -7773,7 +10688,7 @@
 			(uuid "f8cbcbae-6879-4ff1-a354-75892b6fb3cc")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R33")
 					(unit 1)
@@ -7793,7 +10708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5d5dc17-fb33-4bc9-8430-ca84385f2184")
-		(property "Reference" "F5"
+		(property "Reference" "F8"
 			(at 121.92 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7853,9 +10768,125 @@
 			(uuid "119d29eb-abf4-4ee5-be7c-4cef12457f96")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "F5")
+					(reference "F8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 81.28 160.02 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcb92f47-98fc-4d45-8745-ee6cba142806")
+		(property "Reference" "BT6"
+			(at 77.47 156.9084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 77.47 159.4484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 158.496 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 158.496 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 81.28 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 81.28 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 81.28 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 81.28 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "44309d73-e133-4e0d-85be-b2968112a075")
+		)
+		(pin "1"
+			(uuid "dca43c48-f794-49be-85da-65b2b8a964cc")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "BT6")
 					(unit 1)
 				)
 			)
@@ -7931,7 +10962,7 @@
 			(uuid "e94e0539-545d-4c88-971a-6f028da0d4b3")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "#PWR02")
 					(unit 1)
@@ -8010,7 +11041,7 @@
 			(uuid "abeb6cf3-7a10-488a-814f-7ffc4db4a729")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R16")
 					(unit 1)
@@ -8029,7 +11060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df935133-119c-44a8-afd8-c128be6fb38c")
-		(property "Reference" "Q5"
+		(property "Reference" "Q8"
 			(at 143.51 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8094,9 +11125,9 @@
 			(uuid "40d79025-adc0-40ac-bd07-662733651fc2")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "Q5")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -8173,9 +11204,89 @@
 			(uuid "1cdc26d8-3862-4f5c-93c0-eae91975d742")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 99.06 152.4 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6efe0e3-7acc-4cb2-b418-8c16ac0ea242")
+		(property "Reference" "H6"
+			(at 101.6 152.4001 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Old Voltage Tap"
+			(at 101.6 149.8601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+			(at 99.06 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 99.06 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10860a9e-2cfa-4645-9642-933b394b86a9")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -8193,7 +11304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8324e8b-a49b-4d42-8c5e-3d8041521aa9")
-		(property "Reference" "F4"
+		(property "Reference" "F9"
 			(at 121.92 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8253,9 +11364,9 @@
 			(uuid "d6d4650f-8079-4004-8182-6972b07e4446")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "F4")
+					(reference "F9")
 					(unit 1)
 				)
 			)
@@ -8273,7 +11384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8703937-ca93-4fbb-b52e-cb2f0339903e")
-		(property "Reference" "F11"
+		(property "Reference" "F2"
 			(at 123.19 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8333,9 +11444,9 @@
 			(uuid "3c0204e8-97a5-470a-8917-83fb1753cf19")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "F11")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -8375,7 +11486,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 147.32 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8415,7 +11526,7 @@
 			(uuid "394f73db-b054-42d2-bb95-f75b4fa1150c")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R1")
 					(unit 1)
@@ -8494,7 +11605,7 @@
 			(uuid "cfa6d65b-7da9-4213-9b1f-b40749e56035")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R27")
 					(unit 1)
@@ -8513,7 +11624,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef3d242d-f39b-4247-9bf6-5958b14c3dc6")
-		(property "Reference" "Q11"
+		(property "Reference" "Q2"
 			(at 143.51 226.0599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8578,9 +11689,9 @@
 			(uuid "0c49ed96-9b0e-4a86-b19a-172fd3bdd328")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "Q11")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -8660,7 +11771,7 @@
 			(uuid "199d524c-9913-4fcd-b0f7-88339c8a55e7")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R13")
 					(unit 1)
@@ -8739,9 +11850,125 @@
 			(uuid "cd374d1a-4743-4af2-be8b-cc30df68face")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 81.28 110.49 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0f2932f-f4f7-48c0-b164-b8bf7429ce27")
+		(property "Reference" "BT9"
+			(at 77.47 107.3784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 77.47 109.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 108.966 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 81.28 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 81.28 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 81.28 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 81.28 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e3a6b5c9-a3c0-4bf9-ae44-b33deffd46f1")
+		)
+		(pin "1"
+			(uuid "9e09fe4d-b687-4317-8fb9-e2e407a6c35a")
+		)
+		(instances
+			(project "bms_cell_control_unit_V2"
+				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
+					(reference "BT9")
 					(unit 1)
 				)
 			)
@@ -8818,7 +12045,7 @@
 			(uuid "dd5e97f3-2131-4a8b-921c-442da873e380")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R30")
 					(unit 1)
@@ -8897,7 +12124,7 @@
 			(uuid "7c2b8fb2-8bb7-49ba-a099-5afcf5fda48d")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R24")
 					(unit 1)
@@ -8976,7 +12203,7 @@
 			(uuid "93219f71-6c8f-479d-854f-151415d3a438")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "R18")
 					(unit 1)
@@ -9058,7 +12285,7 @@
 			(uuid "028f2b25-a718-459f-b9c5-b69ab2d039d0")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
 					(reference "C1")
 					(unit 1)
@@ -9078,7 +12305,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb1d9a9b-68d8-498b-8e31-9134f69f0207")
-		(property "Reference" "F13"
+		(property "Reference" "F0"
 			(at 123.19 248.92 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9138,9 +12365,9 @@
 			(uuid "61467f80-bdf4-4ffc-9a08-d75bf99b7f83")
 		)
 		(instances
-			(project "bms_slave_pcb"
+			(project "bms_cell_control_unit_V2"
 				(path "/41ccf350-ee7b-4386-b0cf-c25b52556b27/1af5efc7-4330-4e2b-844f-c65e828aa79a"
-					(reference "F13")
+					(reference "F0")
 					(unit 1)
 				)
 			)
