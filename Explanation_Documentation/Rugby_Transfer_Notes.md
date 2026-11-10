@@ -25,9 +25,7 @@
 	> watch for heat on 33 ohm resistor (change resistance? change to dual 67 ohm parallel?)
 - test different footprints for the voltage sense leads?
 
----
 ***
----
 
 ## Main Control PCB TODOs/Notes:
 - change the flash chip schematic symbol and footprint to be not a 
@@ -57,9 +55,7 @@
 - get USB-C to work!! talk to inverter capstone about this
 - different LED setups for visual module indicators
 
----
 ***
----
 
 Other Notes/Links:
 - DONT FORGET TO CONFORMAL COAT THE PCBS WHEN READY TO BE MOUNTED TO MODULES
