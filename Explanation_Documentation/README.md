@@ -1,9 +1,9 @@
 # All main documentation relating to the 2027 BMS project
 
 This is where you will see explanations of our BMS architecture. 
-If leadership has any questions about the BMS project you should point them here. 
+When individuals in leadership have questions about the BMS project this is where you point them. 
 
-*We know they will never look here, but its still good to have* 
+*We know they will never look here, but its still good to have these documents* 
 ***
-If you are in the top leadership in the club and you are viewing this, add to the counter \
+If you are in the top leadership in the club and you are viewing this, congrats. Add to the counter \
 **Leadership Viewer Count:** 0
