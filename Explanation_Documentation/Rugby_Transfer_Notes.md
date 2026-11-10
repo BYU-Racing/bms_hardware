@@ -1,4 +1,5 @@
-# Rugby's BMS Transfer Notes 11/10/2026
+# Rugby's BMS Transfer Notes 
+PCB Handoff 11/10/2026 ☠️🌹⛓️
 
 ## Cell Monitor PCB TODOs/Notes:
 - do math to prove Fuse ratings
