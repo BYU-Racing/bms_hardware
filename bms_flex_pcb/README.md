@@ -1,9 +1,9 @@
 # BMS Flex PCBs (FPCs) V1 Files
 
 This was originally intended to be used as the connection from the current collector plates on the modules to the
-BMS Cell Monitor PCB V1.01. (in the rules its called the Voltage sense leads)
+BMS Cell Monitor PCB V1.01. (the FSAE rules calls this connection the "Voltage sense leads")
 
-The idea to use the FPCs was scrapped for the 2027 season due to team integration timeline constraints.
+The idea to use the FPCs was scrapped for the 2027 season in late October of 2026 due to team integration timeline constraints. We defaulted back to using the long leads off the current collector plates.
 This is still a totally viable and incredibly sleek solution for future years.
 
 The main intent behind using these was as follows:
