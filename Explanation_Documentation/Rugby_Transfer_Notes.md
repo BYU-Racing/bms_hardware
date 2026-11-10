@@ -16,6 +16,7 @@ PCB Handoff 11/10/2026 ☠️🌹⛓️
 - Something to consider on the temperature sensing schematic (page 3): do you need the op-amp buffer? do you need the RC from the buffer into the GPIO pins on the LTC6811-1? do you need any other pull-ups/pull-downs for the MUX chips? I would suggest that you look at the MUX datasheet in more detail to find recommended layout and suggestions on the buffer thing to see if its necessary
 - maybe find a new/better fuse block (cartridge style or something?). The current option is NOT automotive rated so maybe find a solution to that or at a minimum do some vibration testing to see if they stay in the cartridge
 - Talk to Harrison about adding zener diodes to clamp the input voltage from the sense leads ?? I would suggest you just ignore this for now and wait until testing to decide if this is needed.
+- I would consider using zener diodes to clamp the thermistor voltage in the event where the thermistor is shorted to the battery terminal that it mounts to
 - FINISH PCB routing
 	> no traces or components around the isolation transformer and connector (4mm isolation)
 	> I would suggest that you test a couple options for copper pours around the balance resistors
