@@ -4,6 +4,7 @@ PCB Handoff 11/10/2026 ☠️🌹⛓️
 ## Cell Monitor PCB TODOs/Notes:
 - do math to prove Fuse ratings
 	> for both 250mA fuses AND 500mA fuses
+- Verify that the voltage sense lead lengths are <150mm so it accommodates FSAE rules with the fusing. EV.7.6.6
 - fix CODE (hw.h file) to accurately reflect the new (V2.01) pinout for thermistors
 - fix/adjust/decide on what connectors to use for thermistors
 - fix the schematic symbol and footprint for the transformer
