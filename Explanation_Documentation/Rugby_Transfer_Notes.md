@@ -41,6 +41,7 @@ PCB Handoff 11/10/2026 ☠️🌹⛓️
 - Harrison is very sensitive about the LED brightness so make sure the inline resistors with the LEDs are >4.7k ohm
 - find a new footprint and package for the LMR33620 ?? Its really hard to solder to find a better automotive rated component and follow the layout guidelines
 - talk to Harrison about this, but you might want to consider adding BOOT and RST btns to the STM32
+- NOTHING has been added to this PCB design to accommodate charging. Talk to Harrison and Nathan to figure this out.
 - FINISH PCB ROUTING
 	> fix isoSPI connector to be like the Cell Monitor PCBs (1 connector with 4 pins, 2 connectors with 2 pins)
 	> fix and route USB-C connector with slot in PCB to join and mount the waterproof panel connector (ask Harrison about this and which orientation to put the USB-C on the PCB)
