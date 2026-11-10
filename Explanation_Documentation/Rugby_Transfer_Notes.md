@@ -6,7 +6,7 @@ PCB Handoff 11/10/2026 ☠️🌹⛓️
 	> for both 250mA fuses AND 500mA fuses
 - Verify that the voltage sense lead lengths are <150mm so it accommodates FSAE rules with the fusing. EV.7.6.6
 - fix CODE (hw.h file) to accurately reflect the new (V2.01) pinout for thermistors
-- fix/adjust/decide on what connectors to use for thermistors
+- fix/adjust/decide on what connectors to use for thermistors (suggested new thermistors in the Other section below)
 - fix the schematic symbol and footprint for the transformer
 - Power rail (VREG) jumper is there so you can test and oscilloscope the current output from the buck converter
 - I would suggest you to put the VREG LED close to the isoSPI connector so you can see the LED while the modules are in the tractive battery enclosure
@@ -44,6 +44,7 @@ PCB Handoff 11/10/2026 ☠️🌹⛓️
 - find a new footprint and package for the LMR33620 ?? Its really hard to solder to find a better automotive rated component and follow the layout guidelines
 - talk to Harrison about this, but you might want to consider adding BOOT and RST btns to the STM32
 - NOTHING has been added to this PCB design to accommodate charging. Talk to Harrison and Nathan to figure this out.
+- Figure out what you want to do with the current sensor (possible option linked below)
 - FINISH PCB ROUTING
 	> fix isoSPI connector to be like the Cell Monitor PCBs (1 connector with 4 pins, 2 connectors with 2 pins)
 	> fix and route USB-C connector with slot in PCB to join and mount the waterproof panel connector (ask Harrison about this and which orientation to put the USB-C on the PCB)
@@ -65,3 +66,5 @@ Other Notes/Links:
 - DONT FORGET TO CONFORMAL COAT THE PCBS WHEN READY TO BE MOUNTED TO MODULES
 - Transformer that Harrison suggested (HM0068ANLT): https://www.digikey.com/en/products/detail/pulse-electronics/HM0068ANLT/6148254
 - Flash chip that seemed good (SST26VF064B-104I/SM): https://www.digikey.com/en/products/detail/microchip-technology/SST26VF064B-104I-SM/5033662
+- New possible option for thermistors (B57861S0103F040): https://www.digikey.com/en/products/detail/tdk/B57861S0103F040/739889
+- Possible option for Current sensor in TB enclosure (KIT-ICD-A-300-CAN2-12): https://www.digikey.com/en/products/detail/isabellenhuette-usa/KIT-ICD-A-300-CAN2-12/21778664
