@@ -16,8 +16,8 @@
 - Week of Jan 3rd V4 PCBs arrive
 - Week of Jan 10th Install V4 on actual TB modules
 
-*By end of V1 hardware mainly works
-*By end of V2 hardware fully works (with isoSPI)
+*By end of V1 hardware mainly works \
+*By end of V2 hardware fully works (with isoSPI) \
 *V3 fully rules compliant and final connector interface (removing most testing stuff)
 
 
