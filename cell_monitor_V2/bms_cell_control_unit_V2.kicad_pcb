@@ -14232,7 +14232,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "5444dfbd-a3fa-4b47-a1b1-bd3cc309bef4")
-		(at 286.7005 145.2866 -90)
+		(at 286.7055 145.2866 -90)
 		(property "Reference" "H8"
 			(at 0 -0.5 90)
 			(layer "F.SilkS")
