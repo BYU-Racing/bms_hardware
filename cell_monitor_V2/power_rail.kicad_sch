@@ -3508,7 +3508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-16-1EP_3x4.039mm_P0.5mm_EP1.651x2.845mm"
+		(property "Footprint" "bms_slave_pcb:MSOP-16_MSE_LIT"
 			(at 103.378 110.998 0)
 			(hide yes)
 			(show_name no)
