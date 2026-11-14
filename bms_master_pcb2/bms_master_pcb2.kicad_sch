@@ -5572,16 +5572,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 157.48) (xy 254 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "332454a5-94b6-4fd8-a4db-95a061e51747")
-	)
-	(wire
-		(pts
 			(xy 232.41 57.15) (xy 251.46 57.15)
 		)
 		(stroke
@@ -6032,16 +6022,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 154.94) (xy 254 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "957a6bf9-6c8b-4741-a1da-1430e68ce5c7")
-	)
-	(wire
-		(pts
 			(xy 120.65 63.5) (xy 133.35 63.5)
 		)
 		(stroke
@@ -6352,16 +6332,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 152.4) (xy 254 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c87593cf-5175-4154-9569-ea26eb1a10ef")
-	)
-	(wire
-		(pts
 			(xy 120.65 104.14) (xy 146.05 104.14)
 		)
 		(stroke
@@ -6640,16 +6610,6 @@
 		)
 		(uuid "073306ac-6230-4250-9f12-4b024b2842b1")
 	)
-	(label "DIG_OUT_5"
-		(at 168.91 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b37c10d-ea24-4131-b23b-ee27220c17f8")
-	)
 	(label "GPIO_1"
 		(at 76.2 83.82 0)
 		(effects
@@ -6709,16 +6669,6 @@
 			(justify right bottom)
 		)
 		(uuid "22edd99d-0866-406f-98ae-525540361588")
-	)
-	(label "DIG_OUT_6"
-		(at 168.91 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2487981b-475a-4299-822d-f59659959f2a")
 	)
 	(label "DIG_OUT_3"
 		(at 133.35 68.58 180)
@@ -6850,6 +6800,16 @@
 		)
 		(uuid "5d63018b-ab46-43b9-8e47-8a649c4cc9de")
 	)
+	(label "I2C2_SCL"
+		(at 168.91 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d63546f-bcf3-47b5-bd32-172496431267")
+	)
 	(label "DIG_OUT_3"
 		(at 168.91 149.86 0)
 		(effects
@@ -6919,6 +6879,16 @@
 			(justify left bottom)
 		)
 		(uuid "6bf4cad4-1fa9-432a-9734-41e6ed6aad09")
+	)
+	(label "I2C2_SDA"
+		(at 168.91 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c060237-c2a1-4af1-85e2-130fb89c67bd")
 	)
 	(label "SPI3_SCK"
 		(at 64.77 106.68 0)
@@ -7260,6 +7230,16 @@
 		)
 		(uuid "c0389068-ee1d-420e-89a2-ee537856df6b")
 	)
+	(label "LED_RESET"
+		(at 133.35 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c08359d0-538a-4578-b931-24ac95972bcf")
+	)
 	(label "SPI3_MOSI{slash}UART5_TX"
 		(at 64.77 111.76 0)
 		(effects
@@ -7280,16 +7260,6 @@
 		)
 		(uuid "c6ecc397-9214-42a4-a614-34282d0bbf0d")
 	)
-	(label "DIG_OUT_4"
-		(at 133.35 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c7f02a5b-46fa-4263-ab5d-b132913fdf78")
-	)
 	(label "CAN2.RX"
 		(at 123.19 132.08 0)
 		(effects
@@ -7309,16 +7279,6 @@
 			(justify right bottom)
 		)
 		(uuid "ca1d2be3-75ad-470f-bcd7-95e2aaa9158a")
-	)
-	(label "DIG_OUT_5"
-		(at 133.35 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cc79d40d-81a4-4cd7-9be9-d6abdf19dc44")
 	)
 	(label "I2C2_SCL"
 		(at 46.99 180.34 180)
@@ -7400,15 +7360,15 @@
 		)
 		(uuid "d4a68e5d-fb8d-43d5-a8e1-5bc3c730cefb")
 	)
-	(label "DIG_OUT_4"
-		(at 168.91 152.4 0)
+	(label "LED_RESET"
+		(at 168.91 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "dad7fcfc-5d02-4853-81d4-11c452960d0e")
+		(uuid "dd91e7a2-4eaa-45c0-a259-dc0f3414103e")
 	)
 	(label "CAN2.TX"
 		(at 123.19 134.62 0)
@@ -7479,16 +7439,6 @@
 			(justify right bottom)
 		)
 		(uuid "fb722a45-9909-418f-8169-dbf22488cb83")
-	)
-	(label "DIG_OUT_6"
-		(at 133.35 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ffaaecd1-09a7-4dd0-b76f-1cf35494af78")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -12844,36 +12794,6 @@
 				(justify right)
 			)
 		)
-		(pin "BMS_OUT_4" input
-			(at 231.14 152.4 0)
-			(uuid "b610a3c4-645c-4760-b9ab-e9e859730f68")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BMS_OUT_5" input
-			(at 231.14 154.94 0)
-			(uuid "f38e1876-ab9e-4fb3-858b-9cc02f3c3b92")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BMS_OUT_6" input
-			(at 231.14 157.48 0)
-			(uuid "c7b90f7d-5e70-449e-9d15-de24ee4c7ab7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "DIG_OUT_0" input
 			(at 180.34 142.24 180)
 			(uuid "ab8462f6-9a96-4b60-b0bb-d230620d77e6")
@@ -12894,9 +12814,9 @@
 				(justify left)
 			)
 		)
-		(pin "DIG_OUT_4" input
+		(pin "LED_SDA" input
 			(at 180.34 152.4 180)
-			(uuid "5499d7be-3add-4ec7-aeb3-3156c3ec9caf")
+			(uuid "356f3fc1-0341-4c46-8751-d0a95b46f29b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12904,9 +12824,9 @@
 				(justify left)
 			)
 		)
-		(pin "DIG_OUT_5" input
+		(pin "LED_SCL" input
 			(at 180.34 154.94 180)
-			(uuid "68293a5f-98ab-4521-905d-d66052e350e0")
+			(uuid "8a6119d3-2704-4741-a75e-d71b34286b8a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12914,9 +12834,9 @@
 				(justify left)
 			)
 		)
-		(pin "DIG_OUT_6" input
+		(pin "LED_RESET" input
 			(at 180.34 157.48 180)
-			(uuid "c641fabb-0fa5-4cdc-9f91-86ae4d902507")
+			(uuid "2e2cd5a5-2339-41e7-bdcc-7ca728566d01")
 			(effects
 				(font
 					(size 1.27 1.27)
