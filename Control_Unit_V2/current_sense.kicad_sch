@@ -1762,6 +1762,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 52.07) (xy 181.61 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092f5521-d0f8-438f-aa24-5178c8bf7914")
+	)
+	(wire
+		(pts
 			(xy 118.11 109.22) (xy 138.43 109.22)
 		)
 		(stroke
@@ -2725,6 +2735,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 191.77 44.45 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b05f255-8beb-49d6-903b-f92930324525")
+		(property "Reference" "#PWR0832"
+			(at 187.96 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_ISO"
+			(at 195.58 44.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 191.77 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c357e4a0-3432-426e-a201-20d82c22cba4")
+		)
+		(instances
+			(project "bms_master_pcb2"
+				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211"
+					(reference "#PWR0832")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 109.22 69.85 0)
 		(unit 1)
@@ -2873,6 +2962,86 @@
 			(project "bms_master_pcb2"
 				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211"
 					(reference "#PWR0801")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 171.45 44.45 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2db891fc-d67b-43cc-adea-c0b3aa0456dd")
+		(property "Reference" "#PWR0821"
+			(at 175.26 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V_ISO"
+			(at 167.64 44.4499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 171.45 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ba3e1d95-f1dc-468b-983d-cd26b5ca6717")
+		)
+		(instances
+			(project "bms_master_pcb2"
+				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211"
+					(reference "#PWR0821")
 					(unit 1)
 				)
 			)
@@ -3504,6 +3673,83 @@
 			(project "bms_master_pcb2"
 				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211"
 					(reference "#PWR0809")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 181.61 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "657a0175-71a7-4984-a6ef-31b2d0352771")
+		(property "Reference" "#PWR0820"
+			(at 181.61 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HV-"
+			(at 181.61 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 181.61 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02783c88-ecbd-4738-a108-2720a77c30e6")
+		)
+		(instances
+			(project "bms_master_pcb2"
+				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211"
+					(reference "#PWR0820")
 					(unit 1)
 				)
 			)
@@ -6376,7 +6622,7 @@
 	)
 	(sheet
 		(at 171.45 40.64)
-		(size 54.61 29.21)
+		(size 20.32 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6402,7 +6648,7 @@
 			)
 		)
 		(property "Sheetfile" "buck.kicad_sch"
-			(at 171.45 70.4346 0)
+			(at 171.45 50.1146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6410,6 +6656,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 191.77 44.45 0)
+			(uuid "36344d74-5b06-49e6-a7f6-6b919f8df767")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V" input
+			(at 171.45 44.45 180)
+			(uuid "4de3886c-de29-4d01-8ca0-54ac9000c757")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 181.61 49.53 270)
+			(uuid "5d7149f5-5e65-467b-a39a-d4be5fcc4038")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

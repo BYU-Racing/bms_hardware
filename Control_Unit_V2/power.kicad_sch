@@ -1510,6 +1510,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 116.84) (xy 57.15 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0c80fd-1c03-4b93-ae6c-1d0a4d7d812d")
+	)
+	(wire
+		(pts
 			(xy 170.18 92.71) (xy 179.07 92.71)
 		)
 		(stroke
@@ -2928,6 +2938,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 68.58 107.95 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f2162f6-5909-4c93-b761-1078c7dc25ce")
+		(property "Reference" "#PWR0501"
+			(at 64.77 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 72.39 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 68.58 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "944d4dab-9657-4f85-a11f-98e9350e9f2f")
+		)
+		(instances
+			(project "bms_master_pcb2"
+				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/9e1f8778-8b2e-4e89-844e-6bf554e28b40"
+					(reference "#PWR0501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 148.59 95.25 0)
 		(mirror y)
@@ -3895,6 +3984,85 @@
 			(project "bms_master_pcb2"
 				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/9e1f8778-8b2e-4e89-844e-6bf554e28b40"
 					(reference "#PWR0519")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 44.45 107.95 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b451673-4d57-486f-a01d-92351eb19e37")
+		(property "Reference" "#PWR0502"
+			(at 48.26 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 40.64 107.9499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 44.45 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbbac17e-877d-4444-8002-82540c8ce1be")
+		)
+		(instances
+			(project "bms_master_pcb2"
+				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/9e1f8778-8b2e-4e89-844e-6bf554e28b40"
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -4874,6 +5042,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 57.15 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e236b017-b41e-4c8e-a5cb-e97819382c22")
+		(property "Reference" "#PWR0503"
+			(at 57.15 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d8903d3-f4cf-43e1-8c1c-7873478a2942")
+		)
+		(instances
+			(project "bms_master_pcb2"
+				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/9e1f8778-8b2e-4e89-844e-6bf554e28b40"
+					(reference "#PWR0503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 91.44 58.42 90)
 		(unit 1)
 		(body_style 1)
@@ -5270,7 +5516,7 @@
 	)
 	(sheet
 		(at 44.45 102.87)
-		(size 54.61 29.21)
+		(size 24.13 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5296,7 +5542,7 @@
 			)
 		)
 		(property "Sheetfile" "buck.kicad_sch"
-			(at 44.45 132.6646 0)
+			(at 44.45 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5304,6 +5550,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 68.58 107.95 0)
+			(uuid "7ef9c076-9c6d-486a-92e9-edb33bc462d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V" input
+			(at 44.45 107.95 180)
+			(uuid "477c6406-08ad-478e-a1fb-e48e4c755491")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 57.15 114.3 270)
+			(uuid "8b5ba903-c21f-47f2-8476-737c33b95b24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
