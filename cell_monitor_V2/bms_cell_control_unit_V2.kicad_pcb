@@ -1053,7 +1053,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "065df0bf-1e2c-49b3-8808-595fcf286f72")
-		(at 307.4905 145.2866 -90)
+		(at 305.0905 145.2866 -90)
 		(property "Reference" "H6"
 			(at 0 -0.5 90)
 			(layer "F.SilkS")
@@ -2619,12 +2619,12 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "13c8a9ff-25e1-48ff-94f4-37760307638d")
-		(at 120.4295 145.2866 -90)
+		(at 119.1795 145.2866 -90)
 		(property "Reference" "H12"
 			(at 0 -0.5 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b2900e6a-ff3f-4ffa-90b1-ab4710e8ff1f")
+			(uuid "1cc91e46-3746-47d1-8d24-7258f7fe4443")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2636,7 +2636,7 @@
 			(at 0 1 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de0c691c-933d-445a-8abf-8b2358b5cb27")
+			(uuid "35898a58-dbb9-4915-b663-41bacfd40919")
 			(effects
 				(font
 					(size 1 1)
@@ -2648,7 +2648,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bea228ff-4b11-4cdb-9bd3-bde0ea1006f4")
+			(uuid "bd402c7d-8b9c-4c9d-a886-49263b8f0457")
 			(effects
 				(font
 					(size 1 1)
@@ -2660,7 +2660,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ee1b53c0-0557-442c-8e21-0ee73274a13e")
+			(uuid "a576d33e-8708-4c50-8b80-5a95c793baa5")
 			(effects
 				(font
 					(size 1 1)
@@ -13581,7 +13581,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "5444dfbd-a3fa-4b47-a1b1-bd3cc309bef4")
-		(at 286.7055 145.2866 -90)
+		(at 285.7055 145.2866 -90)
 		(property "Reference" "H8"
 			(at 0 -0.5 90)
 			(layer "F.SilkS")
@@ -13985,7 +13985,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "5a8f1188-3c9c-41c2-aa92-8afdba7a1392")
-		(at 286.7 206.3888 90)
+		(at 283.6 206.3888 90)
 		(property "Reference" "H5"
 			(at 0 -0.5 90)
 			(layer "F.SilkS")
@@ -15612,7 +15612,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "69651a6e-df05-4474-ac0a-382fab939532")
-		(at 328.269 206.3888 90)
+		(at 327.269 206.3888 90)
 		(property "Reference" "H7"
 			(at 0 -0.5 90)
 			(layer "F.SilkS")
@@ -18969,7 +18969,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "7dcb6f7c-fe8c-4a47-b9aa-83e03edab2ad")
-		(at 161.993 206.3634 90)
+		(at 159.793 206.3634 90)
 		(property "Reference" "H11"
 			(at 0 -0.5 90)
 			(layer "F.SilkS")
@@ -20722,7 +20722,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "982ca1d7-8d58-427e-85cb-25f8c92bd4c6")
-		(at 161.9985 145.2866 90)
+		(at 159.9985 145.2866 90)
 		(property "Reference" "H2"
 			(at 0 -0.5 90)
 			(layer "F.SilkS")
@@ -28344,7 +28344,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "cd409c88-e1d7-4849-b6b9-2aa91400c3e4")
-		(at 203.562 206.3634 90)
+		(at 201.262 206.3634 90)
 		(property "Reference" "H3"
 			(at 0 -0.5 90)
 			(layer "F.SilkS")
@@ -33085,7 +33085,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "eb06b3c4-2b71-4dbb-80f4-4b71d9bb9465")
-		(at 245.1365 145.2866 90)
+		(at 243.1365 145.2866 90)
 		(property "Reference" "H4"
 			(at 0 -0.5 90)
 			(layer "F.SilkS")
@@ -35157,7 +35157,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "f967eb36-4e4b-4dca-b071-1017a58a2c83")
-		(at 120.424 206.3634 90)
+		(at 119.024 206.3634 90)
 		(property "Reference" "H1"
 			(at 0 -0.5 90)
 			(layer "F.SilkS")
@@ -36786,7 +36786,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "fe865b46-84af-4ba8-b7c8-4e33fa683872")
-		(at 203.5675 145.2866 -90)
+		(at 202.5675 145.2866 -90)
 		(property "Reference" "H10"
 			(at 0 -0.5 90)
 			(layer "F.SilkS")
