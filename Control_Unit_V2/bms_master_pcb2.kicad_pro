@@ -178,7 +178,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -190,7 +189,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -202,7 +200,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -485,7 +482,6 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
-      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -533,8 +529,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -708,7 +704,7 @@
         "uuid": "0a27bee4-f141-44d7-ad0a-0c451f923c0b"
       }
     ],
-    "used_designators": "#PWR601-613,D504,D601-616,R601-605,U601-602",
+    "used_designators": "L103,L901,#PWR113-114,#PWR136-147,#PWR701-705,#PWR801-831,#PWR901-914,#PWR1001,D101,D504,D901,R101-103,R701-705,R801-812,R901-903,#FLG801-802,Q101,Q701,U103,U801-805,U901,C113-122,C801-819,C901-910,J106,J801",
     "variants": []
   },
   "sheets": [
@@ -735,6 +731,22 @@
     [
       "7e4bf6d3-57e9-40c3-8951-a79e0ce023aa",
       "Digital Outputs and Happy Lights"
+    ],
+    [
+      "16cefe22-f972-43d7-ae88-70e39e7ebad5",
+      "BOOT"
+    ],
+    [
+      "ea44681d-f835-4c1f-8b70-19a4d800b211",
+      "CURRENT SENSE"
+    ],
+    [
+      "669381be-9ed0-420f-bf10-1c0eee873393",
+      "BUCK CONVERTER"
+    ],
+    [
+      "3ed003fc-116d-4d58-b90c-06922cf79475",
+      "BUCK CONVERTER"
     ]
   ],
   "text_variables": {},

@@ -1648,16 +1648,6 @@
 		)
 		(uuid "fdc674f1-8090-4838-81b8-b5f1ad79b2da")
 	)
-	(label "CAN1_P"
-		(at 129.54 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a4b25e3-3532-4a0e-b9bf-86a8f601559e")
-	)
 	(label "CAN.2-"
 		(at 173.99 101.6 0)
 		(effects
@@ -1688,36 +1678,6 @@
 		)
 		(uuid "6f0168ea-2d5c-4267-8542-2c9388ae4c37")
 	)
-	(label "CAN2_P"
-		(at 129.54 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7468eadf-d66f-4b21-8324-1ef26d12868c")
-	)
-	(label "CAN2_N"
-		(at 129.54 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79ab615c-5514-4f67-8217-2fe5af7727f5")
-	)
-	(label "CAN1_N"
-		(at 129.54 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed2fb513-7e46-4044-bd88-09c988e39b2f")
-	)
 	(label "CAN.2+"
 		(at 173.99 99.06 0)
 		(effects
@@ -1739,7 +1699,7 @@
 		)
 		(uuid "6640c97b-2b4c-4d7b-842d-6f1bd3691e7b")
 	)
-	(hierarchical_label "CAN1_P"
+	(hierarchical_label "CAN1_RX"
 		(shape input)
 		(at 123.19 64.77 180)
 		(effects
@@ -1750,7 +1710,7 @@
 		)
 		(uuid "874b6c9b-649e-425e-b55e-350ee82a10be")
 	)
-	(hierarchical_label "CAN2_N"
+	(hierarchical_label "CAN2_TX"
 		(shape input)
 		(at 123.19 99.06 180)
 		(effects
@@ -1761,7 +1721,7 @@
 		)
 		(uuid "bbfb4cbc-9014-4123-81fa-00ba7d4d7d29")
 	)
-	(hierarchical_label "CAN1_N"
+	(hierarchical_label "CAN1_TX"
 		(shape input)
 		(at 123.19 62.23 180)
 		(effects
@@ -1783,7 +1743,7 @@
 		)
 		(uuid "cfa71c61-ff73-4d47-a073-dfbdf44a0aee")
 	)
-	(hierarchical_label "CAN2_P"
+	(hierarchical_label "CAN2_RX"
 		(shape input)
 		(at 123.19 101.6 180)
 		(effects
