@@ -1,0 +1,99 @@
+(footprint "Thermistor_Pad"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4aa10367-c1f7-470b-9c2d-8a457ad1419f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Thermistor_Pad"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ce7fabb0-f601-40dd-8411-6cc2d9c63ed1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "783373f8-6af9-46d7-9183-882615fb03ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfb79157-dfed-4a5a-a123-430ac46db242")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b43de4f3-ea2c-4be9-8097-68d5b274955c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3 -7.5)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f822873c-5bf8-49ae-b041-962982da5a78")
+	)
+	(pad "" np_thru_hole circle
+		(at -3 -5)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "eb95f214-d758-425d-aec4-985e6c37f2b6")
+	)
+	(pad "1" smd roundrect
+		(at -6.5 -7.5)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "69fd5695-885b-4cba-a7d2-42d2f9a37378")
+	)
+	(pad "1" smd roundrect
+		(at -6.5 -5)
+		(size 5 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "43cc9a65-2b5f-44e2-a35e-4e47f26e9797")
+	)
+	(embedded_fonts no)
+)

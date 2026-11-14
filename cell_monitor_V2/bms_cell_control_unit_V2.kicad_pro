@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 6.0,
-          "width": 2.5
+          "drill": 0.0,
+          "height": 2.9464,
+          "width": 1.7526
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -539,14 +539,11 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "BMS_Slave_V1-01_grb/",
-      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -813,7 +810,7 @@
         "uuid": "41ccf350-ee7b-4386-b0cf-c25b52556b27"
       }
     ],
-    "used_designators": "H101-104,TP201-212",
+    "used_designators": "#PWR701,C701-702,D301,R701-702,TR701-703",
     "variants": []
   },
   "sheets": [
