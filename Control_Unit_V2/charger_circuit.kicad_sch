@@ -2468,7 +2468,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 118.618 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -2975,7 +2975,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 64.008 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -3582,7 +3582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 135.382 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -3670,7 +3670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 127.9652 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3758,7 +3758,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 118.618 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -3928,7 +3928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 176.53 65.0748 0)
 			(hide yes)
 			(show_name no)
@@ -4098,7 +4098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TLV9002IDR:SOIC127P599X175-8N"
+		(property "Footprint" "bms_master_footprints:SOIC127P599X175-8N"
 			(at 149.86 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4338,7 +4338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 150.8252 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4426,7 +4426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 135.382 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -4514,7 +4514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 135.382 113.03 90)
 			(hide yes)
 			(show_name no)

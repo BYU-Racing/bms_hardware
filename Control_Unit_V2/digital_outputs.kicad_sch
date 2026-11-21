@@ -2914,7 +2914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 162.56 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3072,7 +3072,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "bms_master_footprints:UCC27624QDDR1"
 			(at 118.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3083,7 +3083,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ucc27624.pdf?ts=1795203845067"
 			(at 118.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4912,7 +4912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 146.05 55.88 0)
 			(hide yes)
 			(show_name no)

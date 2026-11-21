@@ -2550,7 +2550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bms_master_pcb2:RNX0012B"
+		(property "Footprint" "bms_master_footprints:RNX0012B"
 			(at 115.57 111.76 0)
 			(hide yes)
 			(show_name no)
