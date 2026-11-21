@@ -48,9 +48,7 @@
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes",
-      "board_outline_area",
-      "ly_points"
+      "shapes"
     ],
     "visible_layers": "ffffffff_ffffffff_ffffffff_ffffff7f",
     "zone_display_mode": 1
@@ -62,7 +60,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "bms_master_pcb2.kicad_prl",
+    "filename": "bms_master_pcb2_old.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

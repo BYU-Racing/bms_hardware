@@ -1,6 +1,5 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "transformer") (type "KiCad") (uri "${KIPRJMOD}/transformer.pretty") (options "") (descr ""))
-	(lib (name "transformer") (type "KiCad") (uri "${KIPRJMOD}/transformer.pretty") (options "") (descr ""))
-	(lib (name "transformer") (type "KiCad") (uri "${KIPRJMOD}/transformer.pretty") (options "") (descr ""))
+	(lib (name "cell_monitor_footprints") (type "KiCad") (uri "${KIPRJMOD}/cell_monitor_footprints.pretty") (options "") (descr ""))
 )
