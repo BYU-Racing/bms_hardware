@@ -4549,145 +4549,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -5177,10 +5038,6 @@
 		(uuid "8021b406-905d-4708-b334-27cd94325fae")
 	)
 	(no_connect
-		(at 256.54 58.42)
-		(uuid "be96e0bc-ae00-41e7-87df-d67cf916d08d")
-	)
-	(no_connect
 		(at 106.68 69.85)
 		(uuid "da6c65bd-152c-4cd7-b7a1-932855d1ce3b")
 	)
@@ -5248,15 +5105,6 @@
 			(type default)
 		)
 		(uuid "40dffa5f-3430-4715-b776-609f5fdf71db")
-	)
-	(bus_entry
-		(at 237.49 53.34)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44d9e9e9-ffd7-4252-9236-c315fd7b7be7")
 	)
 	(bus_entry
 		(at 134.62 100.33)
@@ -5329,15 +5177,6 @@
 			(type default)
 		)
 		(uuid "a7ee7d76-54fc-456f-936c-9096c555fec9")
-	)
-	(bus_entry
-		(at 237.49 50.8)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7ffc42c-5ff8-45eb-befc-01f23f96b011")
 	)
 	(bus_entry
 		(at 129.54 90.17)
@@ -5463,6 +5302,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 133.35) (xy 151.13 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06842400-9cd6-4754-b057-eceb89e689bd")
+	)
+	(wire
+		(pts
 			(xy 227.33 34.29) (xy 229.87 34.29)
 		)
 		(stroke
@@ -5480,16 +5329,6 @@
 			(type default)
 		)
 		(uuid "0e789a7f-4a2f-4f3a-992c-6ed3938cee5a")
-	)
-	(wire
-		(pts
-			(xy 240.03 55.88) (xy 256.54 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ee357b6-c79b-4246-90a6-93408db8bd19")
 	)
 	(wire
 		(pts
@@ -5531,16 +5370,6 @@
 		)
 		(uuid "14818d3b-af6b-46fe-b098-29f515de1053")
 	)
-	(bus
-		(pts
-			(xy 237.49 50.8) (xy 237.49 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17fe505f-735d-45a1-825f-c33bb7a5ef75")
-	)
 	(wire
 		(pts
 			(xy 38.1 172.72) (xy 46.99 172.72)
@@ -5580,16 +5409,6 @@
 			(type default)
 		)
 		(uuid "21471b21-2fe7-42a1-8131-e49df329b4bd")
-	)
-	(bus
-		(pts
-			(xy 229.87 50.8) (xy 237.49 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2166f1ad-f178-40fc-a4c8-d97d7b2a114a")
 	)
 	(wire
 		(pts
@@ -6333,16 +6152,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 53.34) (xy 200.66 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af6880d6-6828-473e-ad6a-6d20fe8e1c9f")
-	)
-	(wire
-		(pts
 			(xy 62.23 105.41) (xy 71.12 105.41)
 		)
 		(stroke
@@ -6360,6 +6169,16 @@
 			(type default)
 		)
 		(uuid "b2d56930-aa34-46de-8dde-174703fca7da")
+	)
+	(wire
+		(pts
+			(xy 140.97 130.81) (xy 151.13 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b448dc14-4f0c-4358-8483-d57981447a2e")
 	)
 	(wire
 		(pts
@@ -6593,16 +6412,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 53.34) (xy 256.54 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d601bb55-d6c8-4647-8c08-5cd7d150ad85")
-	)
-	(wire
-		(pts
 			(xy 116.84 80.01) (xy 106.68 80.01)
 		)
 		(stroke
@@ -6770,16 +6579,6 @@
 			(type default)
 		)
 		(uuid "fe7c7b32-3395-44b5-a9ef-bc92bae3fde3")
-	)
-	(wire
-		(pts
-			(xy 190.5 50.8) (xy 200.66 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fed618e4-fb4a-4d26-a08a-28bb979c7a02")
 	)
 	(label "BOOT0_BTN_IN"
 		(at 53.34 114.3 180)
@@ -7341,16 +7140,6 @@
 		)
 		(uuid "8aa951c4-03a1-4353-b5c7-7784cd80e6eb")
 	)
-	(label "CAN3_RX"
-		(at 190.5 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8aad8575-752b-41df-9d3f-5db035d07f48")
-	)
 	(label "USB.D-"
 		(at 107.95 87.63 0)
 		(effects
@@ -7532,14 +7321,24 @@
 		(uuid "aeb36a15-293d-4458-a33c-d2e622065a7a")
 	)
 	(label "CAN3_TX"
-		(at 190.5 53.34 0)
+		(at 140.97 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "aec2e4ce-0eaf-4992-a496-437318f09372")
+		(uuid "af22e971-5761-4cd1-8a3b-a57da916bfe4")
+	)
+	(label "CAN3_RX"
+		(at 140.97 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b35257f8-32d1-4c8b-b3f5-9e4f52522f82")
 	)
 	(label "SWDIO"
 		(at 114.3 92.71 180)
@@ -7630,16 +7429,6 @@
 			(justify right bottom)
 		)
 		(uuid "d12ad1b8-56a9-4283-9715-d399d75878d6")
-	)
-	(label "ISO_CAN.1-"
-		(at 241.3 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d30dc9f1-9373-4ca8-afa0-356e3dd3fdb9")
 	)
 	(label "DIG_OUT_1"
 		(at 119.38 62.23 180)
@@ -7780,16 +7569,6 @@
 			(justify right bottom)
 		)
 		(uuid "f8e15c03-f3de-43c6-9e69-da03a323850d")
-	)
-	(label "ISO_CAN.1+"
-		(at 241.3 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fb9001cb-16d0-4761-9ac6-9f884492de5a")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9820,93 +9599,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 261.62 58.42 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6ee90014-eb3a-4579-8a7a-05aff3a57df0")
-		(property "Reference" "J106"
-			(at 262.89 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CAN Connector"
-			(at 262.89 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical"
-			(at 261.62 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 261.62 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d67e0bbe-e7a0-4780-9bec-7f42d19bda11")
-		)
-		(pin "4"
-			(uuid "c247452d-d683-4f29-8a40-dd77e8dc2437")
-		)
-		(pin "1"
-			(uuid "9d77eef9-9d2e-4daf-a2b7-f0fd5ca02c46")
-		)
-		(pin "3"
-			(uuid "1b76fd07-bf95-48dd-a805-90231e2e754b")
-		)
-		(instances
-			(project "bms_master_pcb2"
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b"
-					(reference "J106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "work_symbols:SST26VF064B-104V/MF")
 		(at 153.67 25.4 0)
 		(mirror y)
@@ -11712,85 +11404,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 256.54 60.96 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbfeba5e-e5fa-4954-b6c6-b7130a7d43f5")
-		(property "Reference" "#PWR0114"
-			(at 260.35 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V_ISO"
-			(at 252.73 60.9599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 256.54 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "99542083-6e07-4430-bf28-413b559c9e7d")
-		)
-		(instances
-			(project "bms_master_pcb2"
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 39.37 45.72 0)
 		(unit 1)
@@ -12604,7 +12217,7 @@
 	)
 	(sheet
 		(at 151.13 113.03)
-		(size 25.4 15.24)
+		(size 25.4 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12630,7 +12243,7 @@
 			)
 		)
 		(property "Sheetfile" "can.kicad_sch"
-			(at 151.13 128.8546 0)
+			(at 151.13 136.4746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12693,6 +12306,26 @@
 		(pin "CAN2_TX" input
 			(at 151.13 115.57 180)
 			(uuid "980bfaf0-6d79-46e3-b4a5-9f172c8eea22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN3_RX" input
+			(at 151.13 130.81 180)
+			(uuid "e6d343e2-a06b-42aa-962e-c22c9361dd58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN3_TX" input
+			(at 151.13 133.35 180)
+			(uuid "8414c540-a594-410a-8a79-f34c65c1ae5b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12866,82 +12499,6 @@
 			(project "bms_master_pcb2"
 				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 200.66 46.99)
-		(size 29.21 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "ea44681d-f835-4c1f-8b70-19a4d800b211")
-		(property "Sheetname" "CURRENT SENSE"
-			(at 200.66 46.2784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "current_sense.kicad_sch"
-			(at 200.66 57.7346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "CAN3_RX" input
-			(at 200.66 50.8 180)
-			(uuid "dc2f54ab-6004-4075-bada-c708f9b02209")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CAN3_TX" input
-			(at 200.66 53.34 180)
-			(uuid "b362803b-2a1b-4fa2-ae1b-05255bf0163e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ISO_CAN{3+ 3-}" input
-			(at 229.87 50.8 0)
-			(uuid "b4b405ec-148f-46fb-a37f-6ae28a0b17b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "bms_master_pcb2"
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b"
-					(page "8")
 				)
 			)
 		)

@@ -1521,10 +1521,6 @@
 					(reference "C904")
 					(unit 1)
 				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "C116")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1605,10 +1601,6 @@
 			(project "bms_master_pcb2"
 				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/9e1f8778-8b2e-4e89-844e-6bf554e28b40/669381be-9ed0-420f-bf10-1c0eee873393"
 					(reference "C908")
-					(unit 1)
-				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "C120")
 					(unit 1)
 				)
 			)
@@ -1693,10 +1685,6 @@
 					(reference "C907")
 					(unit 1)
 				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "C119")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1777,10 +1765,6 @@
 			(project "bms_master_pcb2"
 				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/9e1f8778-8b2e-4e89-844e-6bf554e28b40/669381be-9ed0-420f-bf10-1c0eee873393"
 					(reference "C905")
-					(unit 1)
-				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "C117")
 					(unit 1)
 				)
 			)
@@ -1872,10 +1856,6 @@
 					(reference "R902")
 					(unit 1)
 				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "R102")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -1953,10 +1933,6 @@
 			(project "bms_master_pcb2"
 				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/9e1f8778-8b2e-4e89-844e-6bf554e28b40/669381be-9ed0-420f-bf10-1c0eee873393"
 					(reference "R901")
-					(unit 1)
-				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "R101")
 					(unit 1)
 				)
 			)
@@ -2041,10 +2017,6 @@
 					(reference "C902")
 					(unit 1)
 				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "C114")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2125,10 +2097,6 @@
 			(project "bms_master_pcb2"
 				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/9e1f8778-8b2e-4e89-844e-6bf554e28b40/669381be-9ed0-420f-bf10-1c0eee873393"
 					(reference "C906")
-					(unit 1)
-				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -2213,10 +2181,6 @@
 					(reference "C910")
 					(unit 1)
 				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "C122")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2299,10 +2263,6 @@
 					(reference "C909")
 					(unit 1)
 				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "C121")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2383,10 +2343,6 @@
 			(project "bms_master_pcb2"
 				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/9e1f8778-8b2e-4e89-844e-6bf554e28b40/669381be-9ed0-420f-bf10-1c0eee873393"
 					(reference "C901")
-					(unit 1)
-				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "C113")
 					(unit 1)
 				)
 			)
@@ -2478,10 +2434,6 @@
 					(reference "R903")
 					(unit 1)
 				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "R103")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2561,10 +2513,6 @@
 			(project "bms_master_pcb2"
 				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/9e1f8778-8b2e-4e89-844e-6bf554e28b40/669381be-9ed0-420f-bf10-1c0eee873393"
 					(reference "L901")
-					(unit 1)
-				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "L103")
 					(unit 1)
 				)
 			)
@@ -2680,10 +2628,6 @@
 					(reference "U901")
 					(unit 1)
 				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "U103")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2764,10 +2708,6 @@
 			(project "bms_master_pcb2"
 				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/9e1f8778-8b2e-4e89-844e-6bf554e28b40/669381be-9ed0-420f-bf10-1c0eee873393"
 					(reference "C903")
-					(unit 1)
-				)
-				(path "/0a27bee4-f141-44d7-ad0a-0c451f923c0b/ea44681d-f835-4c1f-8b70-19a4d800b211/3ed003fc-116d-4d58-b90c-06922cf79475"
-					(reference "C115")
 					(unit 1)
 				)
 			)
