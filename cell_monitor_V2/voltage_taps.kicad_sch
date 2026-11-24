@@ -4169,7 +4169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cell_monitor_footprints:Balance_Resistor_Thermal_Pad"
+		(property "Footprint" "cell_monitor:Balance_Resistor_Thermal_Pad_Updated"
 			(at 147.32 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -4495,7 +4495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cell_monitor_footprints:Balance_Resistor_Thermal_Pad"
+		(property "Footprint" "cell_monitor:Balance_Resistor_Thermal_Pad_Updated"
 			(at 147.32 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5066,7 +5066,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cell_monitor_footprints:Balance_Resistor_Thermal_Pad"
+		(property "Footprint" "cell_monitor:Balance_Resistor_Thermal_Pad_Updated"
 			(at 147.32 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5980,7 +5980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cell_monitor_footprints:Balance_Resistor_Thermal_Pad"
+		(property "Footprint" "cell_monitor:Balance_Resistor_Thermal_Pad_Updated"
 			(at 147.32 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -6221,7 +6221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cell_monitor_footprints:Balance_Resistor_Thermal_Pad"
+		(property "Footprint" "cell_monitor:Balance_Resistor_Thermal_Pad_Updated"
 			(at 147.32 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7954,7 +7954,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cell_monitor_footprints:Balance_Resistor_Thermal_Pad"
+		(property "Footprint" "cell_monitor:Balance_Resistor_Thermal_Pad_Updated"
 			(at 147.32 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8393,7 +8393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cell_monitor_footprints:Balance_Resistor_Thermal_Pad"
+		(property "Footprint" "cell_monitor:Balance_Resistor_Thermal_Pad_Updated"
 			(at 147.32 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -8555,7 +8555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cell_monitor_footprints:Balance_Resistor_Thermal_Pad"
+		(property "Footprint" "cell_monitor:Balance_Resistor_Thermal_Pad_Updated"
 			(at 147.32 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8637,7 +8637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cell_monitor_footprints:Balance_Resistor_Thermal_Pad"
+		(property "Footprint" "cell_monitor:Balance_Resistor_Thermal_Pad_Updated"
 			(at 147.32 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9641,7 +9641,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cell_monitor_footprints:Balance_Resistor_Thermal_Pad"
+		(property "Footprint" "cell_monitor:Balance_Resistor_Thermal_Pad_Updated"
 			(at 147.32 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -10871,7 +10871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cell_monitor_footprints:Balance_Resistor_Thermal_Pad"
+		(property "Footprint" "cell_monitor:Balance_Resistor_Thermal_Pad_Updated"
 			(at 147.32 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -12817,7 +12817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cell_monitor_footprints:Balance_Resistor_Thermal_Pad"
+		(property "Footprint" "cell_monitor:Balance_Resistor_Thermal_Pad_Updated"
 			(at 147.32 69.85 0)
 			(hide yes)
 			(show_name no)
