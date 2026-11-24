@@ -4180,7 +4180,7 @@
 		)
 		(uuid "0f5b9695-2d5e-4cb1-9052-18e6e7d28fff")
 	)
-	(label "TH13"
+	(label "TH16"
 		(at 30.48 118.11 0)
 		(effects
 			(font
@@ -4190,7 +4190,7 @@
 		)
 		(uuid "176cdc92-a3ca-4129-b3d8-b40dc6a52115")
 	)
-	(label "TH14"
+	(label "TH13"
 		(at 30.48 128.27 0)
 		(effects
 			(font
@@ -4210,7 +4210,7 @@
 		)
 		(uuid "1e726d8b-f38a-44bb-8953-8005d894eff1")
 	)
-	(label "TH7"
+	(label "TH3"
 		(at 31.75 85.09 0)
 		(effects
 			(font
@@ -4260,7 +4260,7 @@
 		)
 		(uuid "3076ea84-c28e-42df-b4e3-2ecbf699d611")
 	)
-	(label "TH16"
+	(label "TH14"
 		(at 30.48 125.73 0)
 		(effects
 			(font
@@ -4290,7 +4290,7 @@
 		)
 		(uuid "441bd0ee-7335-47e4-85fa-e947230459e7")
 	)
-	(label "TH9"
+	(label "TH11"
 		(at 71.12 125.73 180)
 		(effects
 			(font
@@ -4330,7 +4330,7 @@
 		)
 		(uuid "553028e1-ebca-425b-975d-1cf366f5109e")
 	)
-	(label "TH5"
+	(label "TH4"
 		(at 31.75 82.55 0)
 		(effects
 			(font
@@ -4380,7 +4380,7 @@
 		)
 		(uuid "62b3c839-8c3c-4d74-850e-276d09371c42")
 	)
-	(label "TH11"
+	(label "TH9"
 		(at 71.12 120.65 180)
 		(effects
 			(font
@@ -4430,7 +4430,7 @@
 		)
 		(uuid "7301b9f5-918f-4ca8-8164-136d2688f7a2")
 	)
-	(label "TH6"
+	(label "TH1"
 		(at 31.75 92.71 0)
 		(effects
 			(font
@@ -4450,7 +4450,7 @@
 		)
 		(uuid "800e2dba-7705-43c7-a325-d3a0ec6941f8")
 	)
-	(label "TH8"
+	(label "TH2"
 		(at 31.75 90.17 0)
 		(effects
 			(font
@@ -4500,7 +4500,7 @@
 		)
 		(uuid "a845c207-3657-4e0f-b4fe-7da2fe3c4b67")
 	)
-	(label "TH4"
+	(label "TH8"
 		(at 69.85 92.71 180)
 		(effects
 			(font
@@ -4550,7 +4550,7 @@
 		)
 		(uuid "bb7079b5-6dd2-4263-aed9-35d68ec4d470")
 	)
-	(label "TH3"
+	(label "TH5"
 		(at 69.85 85.09 180)
 		(effects
 			(font
@@ -4600,7 +4600,7 @@
 		)
 		(uuid "c8ddecbb-ff9f-4e5a-a3ea-a7a22ac2901e")
 	)
-	(label "TH1"
+	(label "TH7"
 		(at 69.85 90.17 180)
 		(effects
 			(font
@@ -4610,7 +4610,7 @@
 		)
 		(uuid "cc08aef7-b2e6-4868-b709-bac3fe234350")
 	)
-	(label "TH2"
+	(label "TH6"
 		(at 69.85 87.63 180)
 		(effects
 			(font

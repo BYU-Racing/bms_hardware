@@ -4336,7 +4336,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+		(property "Footprint" "cell_monitor:Votage_taps"
 			(at 99.06 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4416,7 +4416,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+		(property "Footprint" "cell_monitor:Votage_taps"
 			(at 99.06 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -5901,7 +5901,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+		(property "Footprint" "cell_monitor:Votage_taps"
 			(at 99.06 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -6063,7 +6063,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+		(property "Footprint" "cell_monitor:Votage_taps"
 			(at 99.06 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -6384,7 +6384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+		(property "Footprint" "cell_monitor:Votage_taps"
 			(at 99.06 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -6983,7 +6983,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+		(property "Footprint" "cell_monitor:Votage_taps"
 			(at 99.06 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8476,7 +8476,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+		(property "Footprint" "cell_monitor:Votage_taps"
 			(at 99.06 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8719,7 +8719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+		(property "Footprint" "cell_monitor:Votage_taps"
 			(at 99.06 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -10003,7 +10003,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+		(property "Footprint" "cell_monitor:Votage_taps"
 			(at 99.06 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10472,7 +10472,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+		(property "Footprint" "cell_monitor:Votage_taps"
 			(at 99.06 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10552,7 +10552,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+		(property "Footprint" "cell_monitor:Votage_taps"
 			(at 99.06 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11745,7 +11745,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+		(property "Footprint" "cell_monitor:Votage_taps"
 			(at 99.06 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -12578,7 +12578,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "bms_slave_pcb:Old_Voltage_Tap"
+		(property "Footprint" "cell_monitor:Votage_taps"
 			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
