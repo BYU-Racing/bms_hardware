@@ -5776,7 +5776,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f931c40a-bec5-44c3-a805-a137738e3a92")
+			(uuid "f931c40a-bec5-44c3-a805-a137738e3a93")
 		)
 		(instances
 			(project "bms_cell_control_unit_V2"
@@ -7338,7 +7338,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f931c40a-bec5-44c3-a805-a137738e3a92")
+			(uuid "f931c40a-bec5-44c3-a805-a137738e3a94")
 		)
 		(instances
 			(project "bms_cell_control_unit_V2"
@@ -7909,7 +7909,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f931c40a-bec5-44c3-a805-a137738e3a92")
+			(uuid "f931c40a-bec5-44c3-a805-a137738e3a95")
 		)
 		(instances
 			(project "bms_cell_control_unit_V2"
@@ -13531,7 +13531,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f931c40a-bec5-44c3-a805-a137738e3a92")
+			(uuid "f931c40a-bec5-44c3-a805-a137738e3a96")
 		)
 		(instances
 			(project "bms_cell_control_unit_V2"

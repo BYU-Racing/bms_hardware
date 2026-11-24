@@ -4,10 +4,10 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 3.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "4aa10367-c1f7-470b-9c2d-8a457ad1419f")
+		(uuid "136bddd9-7db6-4479-93f5-09160790ae51")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 		)
 	)
 	(property "Value" "Thermistor_Pad"
-		(at 0 1 0)
+		(at 0 -0.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "ce7fabb0-f601-40dd-8411-6cc2d9c63ed1")
+		(uuid "18f16aa2-1ccf-4106-b6ef-4263cadf16a8")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "783373f8-6af9-46d7-9183-882615fb03ad")
+		(uuid "e9aaf94d-1d27-4890-b345-ce7541c321c7")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cfb79157-dfed-4a5a-a123-430ac46db242")
+		(uuid "80d3e268-0ff7-4554-ba4f-e093c669d75b")
 		(effects
 			(font
 				(size 1 1)
@@ -55,11 +55,43 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.25 -5)
+		(end 2.25 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "8cac33ff-500b-4088-b454-85a563042716")
+	)
+	(fp_rect
+		(start -2.5 -5)
+		(end 2.5 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3c466b4f-e181-4bea-9dfe-e964a466fba8")
+	)
+	(fp_line
+		(start -3.45 -5)
+		(end 3.55 -5)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "User.1")
+		(uuid "5a163fcb-81eb-4966-9e2f-fd3c19083882")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 0.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "b43de4f3-ea2c-4be9-8097-68d5b274955c")
+		(uuid "fd529145-a47c-4499-8f02-70451d0d21c6")
 		(effects
 			(font
 				(size 1 1)
@@ -67,33 +99,46 @@
 			)
 		)
 	)
+	(fp_text user "Board Edge"
+		(at 0.05 -5.05 0)
+		(unlocked yes)
+		(layer "User.1")
+		(uuid "5f58730b-79db-444b-a30d-107ea1682419")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(italic yes)
+			)
+			(justify bottom)
+		)
+	)
 	(pad "" np_thru_hole circle
-		(at -3 -7.5)
+		(at -1.27 -3.5 90)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "B.SilkS")
+		(uuid "b539bd9f-2870-41d2-8cc0-4a20d62918cc")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.27 -3.5 90)
 		(size 1 1)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
-		(uuid "f822873c-5bf8-49ae-b041-962982da5a78")
-	)
-	(pad "" np_thru_hole circle
-		(at -3 -5)
-		(size 1 1)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(uuid "eb95f214-d758-425d-aec4-985e6c37f2b6")
+		(uuid "4e79d700-603f-457e-a29b-df1b23549601")
 	)
 	(pad "1" smd roundrect
-		(at -6.5 -7.5)
+		(at -1.27 0 90)
 		(size 5 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "69fd5695-885b-4cba-a7d2-42d2f9a37378")
+		(uuid "9318ed8d-435d-4642-aa77-72f77d0d2e11")
 	)
-	(pad "1" smd roundrect
-		(at -6.5 -5)
+	(pad "2" smd roundrect
+		(at 1.27 0 90)
 		(size 5 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
-		(uuid "43cc9a65-2b5f-44e2-a35e-4e47f26e9797")
+		(uuid "53a27e5f-e007-4904-b47b-3efd0339f333")
 	)
 	(embedded_fonts no)
 )

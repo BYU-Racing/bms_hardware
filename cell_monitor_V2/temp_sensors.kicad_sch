@@ -5128,7 +5128,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5155,7 +5155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 50.8 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5289,7 +5289,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5316,7 +5316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 106.68 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5611,7 +5611,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5638,7 +5638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 218.44 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6823,7 +6823,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6850,7 +6850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 232.41 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6905,7 +6905,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6932,7 +6932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 64.77 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6987,7 +6987,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7014,7 +7014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 176.53 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7306,7 +7306,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7333,7 +7333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 120.65 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7467,7 +7467,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7494,7 +7494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 246.38 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7628,7 +7628,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7655,7 +7655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 92.71 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8189,7 +8189,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8216,7 +8216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 36.83 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8432,7 +8432,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8459,7 +8459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 204.47 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8593,7 +8593,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8620,7 +8620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 162.56 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8913,7 +8913,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8940,7 +8940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 78.74 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9939,7 +9939,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9966,7 +9966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 134.62 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10335,7 +10335,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10362,7 +10362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 148.59 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10734,7 +10734,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10761,7 +10761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "thermistor library:Thermistor_Pad"
 			(at 190.5 34.29 0)
 			(hide yes)
 			(show_name no)
